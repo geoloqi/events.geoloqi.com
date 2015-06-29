@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:20130310T020000
+RDATE:20130310T020000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130924T040232Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130927T210000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130927T180000
+DTSTAMP;VALUE=DATE-TIME:20130924T040232Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130924T040232Z
+UID:http://events.geoloqi.com/events/130
+DESCRIPTION:Come meet fellow geo enthusiasts and get excited for Saturday
+ 's unconference sessions at WhereCamp!\n\nTags: social\, mapping\, gis\,
+  party\, open source\, geo\, Stumptown Syndicate\, wherecamp portland\n\
+ nImported from: http://calagator.org/events/1250464911\n\nImported from:
+  http://events.geoloqi.com/events/130
+URL:http://wherecamppdx.org
+SUMMARY:WhereCamp Opening Party
+LOCATION:TBD
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

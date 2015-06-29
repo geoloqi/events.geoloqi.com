@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121106T000249Z
+DTEND;VALUE=DATE:20121110
+DTSTART;VALUE=DATE:20121108
+DTSTAMP;VALUE=DATE-TIME:20121106T000249Z
+LAST-MODIFIED;VALUE=DATE-TIME:20121106T152758Z
+UID:http://events.geoloqi.com/events/4
+DESCRIPTION:This event runs from Thursday\, November 8\, 2012 at 9am thro
+ ugh Friday\, November 9\, 2012 at 6pm.\n\n Description:\n\n\nTags: user:
+ jerrysv\n\nImported from: http://events.geoloqi.com/events/4
+URL:http://cascadiajs.com
+SUMMARY:CascadiaJS
+LOCATION:Hub Seattle: 220 2nd Avenue South\, Seattle WA 98104 US
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:STANDARD
+DTSTART:20121104T020000
+RDATE:20121104T020000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130131T021703Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130131T203000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130131T190000
+DTSTAMP;VALUE=DATE-TIME:20130131T021703Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130201T001302Z
+UID:http://events.geoloqi.com/events/19
+DESCRIPTION:This week's speakers include Josh Yaganeh\, Courtland Fowler\
+ , Ryan Arana and Tristan Waddington.\n\nCome learn from local Android de
+ velopers working right here in Portland. We're hosting a few short talks
+  on Android build automation\, the new Google V2 mapping library\, the A
+ ndroid activity lifecycle and an overview of automated testing framework
+ s. This is the first of what we hope becomes a regular series of talks o
+ n Android development techniques. Developers of all skill levels are wel
+ come.\n\nUpdate: Pizza ordered! Come hungry.\n\nPlease register at the e
+ ventbrite link above so we can gauge interest.\n\nTags: user:josh\, user
+ :aaronpk\, user:courtf\, user:ryana\, user:kyledrake\n\nImported from: h
+ ttp://events.geoloqi.com/events/19
+URL:http://www.eventbrite.com/event/5155821200
+SUMMARY:PDX Android Lecture Series
+LOCATION:Urban Airship: 334 NW 11th Avenue\, Portland OR 97209 US
+SEQUENCE:5
+END:VEVENT
+END:VCALENDAR

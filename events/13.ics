@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121110T171300Z
+DTEND;VALUE=DATE:20121201
+DTSTART;VALUE=DATE:20121127
+DTSTAMP;VALUE=DATE-TIME:20121110T171300Z
+LAST-MODIFIED;VALUE=DATE-TIME:20121110T171300Z
+UID:http://events.geoloqi.com/events/13
+DESCRIPTION:This event runs from Tuesday\, November 27\, 2012 at 9am thro
+ ugh Friday\, November 30\, 2012 at 6pm.\n\n Description:\nNWACC Council 
+ Members will convene at Turtle Bay in Hawaii to celebrate the 25th anniv
+ ersary of the organization\, assess the successes and challenges of curr
+ ent programs\, and determine the strategic and programmatic course of th
+ e organization for the next 5-year cycle (2014-2018).\n\nThe retreat wil
+ l also feature conversations with two visionary leaders in technology\, 
+ Richard DeMillo and Amber Case.\n\nAmber Case will discuss the challenge
+ s and opportunities for technology programs in higher education\, as wel
+ l as the growing group of students who feel that a higher education no l
+ onger makes sense for them. She'll share some of her employees’ experi
+ ences as well as her own. The talk will cover open source and proprietar
+ y software\, student opportunity\, choice making\, vendor lock-in and wh
+ at CIOs can do to help higher education facilities become shining stars 
+ for future students and industries. \n\nTags: user:caseorganic\, cio\, e
+ ducation\n\nImported from: http://events.geoloqi.com/events/13
+URL:http://www.nwacc.org/programs/conf12/agenda.html
+SUMMARY:CIOs in Higher Education
+LOCATION:Turtle Bay Resort: 57-091 Kamehameha Hwy\, Oahu Hawaii 96731 US
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

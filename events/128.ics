@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130916T220342Z
+DTEND;VALUE=DATE:20131012
+DTSTART;VALUE=DATE:20131010
+DTSTAMP;VALUE=DATE-TIME:20130916T220342Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130916T220342Z
+UID:http://events.geoloqi.com/events/128
+DESCRIPTION:This event runs from Thursday\, October 10\, 2013 at 8am thro
+ ugh Friday\, October 11\, 2013 at 4:30pm.\n\n Description:\nThe Quantifi
+ ed Self 2013 Global Conference will be our fifth gathering of the global
+  community of self-trackers and tool-makers. This will be a working meet
+ ing with attendees coming from many of the 90+ QS groups worldwide. It's
+  a place to gather\, inspire\, and learn from each other as we share our
+  self-tracking projects\, collaborate on new ideas\, and discuss the fut
+ ure of the Quantified Self movement.\n\nTags: user:aaronpk\, user:caseor
+ ganic\, quantifiedself\n\nImported from: http://events.geoloqi.com/event
+ s/128
+URL:http://quantifiedself.com/conference/San-Francisco-2013/
+SUMMARY:Quantified Self 2013 Global Conference
+LOCATION:Presidio Golden Gate Club
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

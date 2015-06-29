@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130211T180304Z
+DTEND;VALUE=DATE:20130329
+DTSTART;VALUE=DATE:20130324
+DTSTAMP;VALUE=DATE-TIME:20130211T180304Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130221T185820Z
+UID:http://events.geoloqi.com/events/26
+DESCRIPTION:This event runs from Sunday\, March 24\, 2013 at 8:30am throu
+ gh Thursday\, March 28\, 2013 at 5pm.\n\n Description:\nJoin a couple th
+ ousand developers and geo-technologists as we introduce ArcGIS 10.2\, th
+ e latest location-based platform\, set to release this June. Discover al
+ l the new Runtime SDKs\, check out the most innovative applications usin
+ g this new technology and meet the people behind our next level mapping 
+ continuum.\n\nTags: user:aaronpk\, user:bronwyn\, user:caseorganic\, use
+ r:courtf\, user:jerrysv\, user:jim2\, user:josh\, user:kenichi\, user:pa
+ trickarlt\, user:paulcpederson\, user:ryana\, esri\, devsummit\, user:ro
+ binj\n\nImported from: http://events.geoloqi.com/events/26
+URL:http://www.esri.com/events/devsummit/index.html
+SUMMARY:Esri Developer Summit
+LOCATION:Palm Springs Convention Center: 277 N Avenida Caballeros\, Palm 
+ Springs CA 92262 US
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:20130310T020000
+RDATE:20130310T020000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130227T050648Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130310T170000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130310T120000
+DTSTAMP;VALUE=DATE-TIME:20130227T050648Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130301T003015Z
+UID:http://events.geoloqi.com/events/35
+DESCRIPTION:Esri and the City of Austin will be sponsoring a hackathon to
+  see who can build the most awesome mapping/data mashup in under five ho
+ urs! The hackathon kickoff will happen during Esri's epic Geo Brunch at 
+ the Lavahouse. Just grab the geo trolley to get there! \n\nIt’s free! 
+ You can participate as an individual or a team. Prizes will be awarded t
+ o the winners by the hackathon partners (Esri and the City of Austin). B
+ reakfast\, lunch\, coffee and beer will be available throughout the day\
+ , and there will be high speed Internet access and comfortable couches. 
+ \n\nTags: sxsw\, user:aaronpk\, user:caseorganic\, user:ryana\, user:cou
+ rtf\, user:josh\, user:kenichi\, user:patrickarlt\n\nImported from: http
+ ://events.geoloqi.com/events/35
+URL:http://esri-sxsw-hackathon-eorg.eventbrite.com/
+SUMMARY:SXSW Open Data and Mapping Hackathon
+LOCATION:Esri Lavahouse @ Palazzo Lavacca: 1614 Lavaca Street \, Austin T
+ X 78701 US
+SEQUENCE:5
+END:VEVENT
+END:VCALENDAR

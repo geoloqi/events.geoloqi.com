@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121106T153610Z
+DTEND;VALUE=DATE:20121025
+DTSTART;VALUE=DATE:20121023
+DTSTAMP;VALUE=DATE-TIME:20121106T153610Z
+LAST-MODIFIED;VALUE=DATE-TIME:20121106T211513Z
+UID:http://events.geoloqi.com/events/6
+DESCRIPTION:This event runs from Tuesday\, October 23\, 2012 at 9am throu
+ gh Wednesday\, October 24\, 2012 at 7pm.\n\n Description:\nA MELTING POT
+  CONFERENCE FOR REALTIME TECHNOLOGIES\n\nWe asked ourselves\, &quot\;Wha
+ t would an ideal realtime conference look like? Let's do that.&quot\; 20
+ 11 was a blast and we can't wait to do it again.\n\nEveryone gets more o
+ ut of conferences that are centered on making connections. No elitists h
+ ere—you'll talk to everyone.\n\nTags: user:aaronpk\, user:caseorganic\
+ , user:jerrysv\, user:kyledrake\, krtconf\, keepingitrealtime\n\nImporte
+ d from: http://events.geoloqi.com/events/6
+URL:http://2012.realtimeconf.com/
+SUMMARY:Keeping it Realtime 2012
+LOCATION:PureSpace: 1315 Northwest Overton Street\, Portland OR 97209 US
+SEQUENCE:4
+END:VEVENT
+END:VCALENDAR

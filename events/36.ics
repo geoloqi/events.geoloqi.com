@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:20130310T020000
+RDATE:20130310T020000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130227T051157Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130324T230000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130324T220000
+DTSTAMP;VALUE=DATE-TIME:20130227T051157Z
+LAST-MODIFIED;VALUE=DATE-TIME:20150228T171701Z
+UID:http://events.geoloqi.com/events/36
+DESCRIPTION:Check out the new ArcGIS for Developers and use it to build t
+ he best app at the Esri Dev Summit Hackathon starting at 1:00pm on Sunda
+ y\, March 24th and Monday\, March 25th!\n\nKicking off our Annual DevSum
+ mit festivities\, hackathon teams will meet (or join online) from 1pm\, 
+ March 24 and until Monday\, March 25th at 10:30am the following day. Par
+ ticipating teams will then present their best location-based project\, u
+ sing the brand new ArcGIS for Developers site and data provided by the C
+ ounty of Riverside!\n\nFood and drinks will be provided to all teams who
+  compete on site\, and best wishes delivered to all of our remote partic
+ ipants! Each team will have an opportunity to present their work\, and a
+ n panel of judges will review presenting teams to deem one app the best\
+ , awarding prizes and the chance to do a quick presentation in front of 
+ the entire Dev Summit audience! \n\nTags: devsummit\, esri\, user:aaronp
+ k\, user:caseorganic\, user:courtf\, user:jerrysv\, user:josh\, user:ken
+ ichi\, user:patrickarlt\, user:paulcpederson\, user:ryana\n\nImported fr
+ om: http://events.geoloqi.com/events/36
+URL:http://esri-dev-summit-hackathon.eventbrite.com/
+SUMMARY:Esri Dev Summit Hackathon
+LOCATION:Palm Springs Convention Center: 277 N Avenida Caballeros\, Palm 
+ Springs CA 92262 US
+SEQUENCE:3
+END:VEVENT
+END:VCALENDAR

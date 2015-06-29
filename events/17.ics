@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:STANDARD
+DTSTART:20121104T020000
+RDATE:20121104T020000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121111T184723Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130105T180000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130105T090000
+DTSTAMP;VALUE=DATE-TIME:20121111T184723Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130108T204543Z
+UID:http://events.geoloqi.com/events/17
+DESCRIPTION:On January 5th\, we’ll open up our NYC &amp\; SF offices fo
+ r a connected apps hackathon of epic proportions. And just like last yea
+ r\, we’re inviting developers all around the world to join us by bandi
+ ng together in their hometowns and hacking up some awesome connected app
+ s of their own. We’ll have prizes\, swag\, and (naturally) global glor
+ y for the best foursquare hacks\, no matter where in the world they come
+  from.\n\nRead more on our blog!\n\nTags: hackathon\, foursquare\, user:
+ jim2\, user:bronwyn\, user:aaronpk\, user:kyledrake\n\nImported from: ht
+ tp://events.geoloqi.com/events/17
+URL:http://www.meetup.com/foursquare-API/San-Francisco-CA/828942/
+SUMMARY:Foursquare API Hackathon (San Francisco)
+LOCATION:Foursquare SF: 363 Clementina St\, San Francisco CA 94103 US
+SEQUENCE:4
+END:VEVENT
+END:VCALENDAR

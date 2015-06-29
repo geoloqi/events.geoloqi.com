@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130624T194638Z
+DTEND;VALUE=DATE:20130622
+DTSTART;VALUE=DATE:20130618
+DTSTAMP;VALUE=DATE-TIME:20130624T194638Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130624T194638Z
+UID:http://events.geoloqi.com/events/110
+DESCRIPTION:This event runs from Tuesday\, June 18\, 2013 at 9am through 
+ Friday\, June 21\, 2013 at 6pm.\n\n Description:\nOpen Source Bridge is 
+ an open source developers conference\, focused on bringing people from a
+  range of technology backgrounds together to share their knowledge and e
+ xplore what it means to be an open source citizen.\n\nTags: user:aaronpk
+ \, user:caseorganic\, user:jerrysv\, opensourcebridge\n\nImported from: 
+ http://events.geoloqi.com/events/110
+URL:http://opensourcebridge.org/
+SUMMARY:Open Source Bridge
+LOCATION:Eliot Center: 1226 SW Salmon St\, Portland OR 97201 
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

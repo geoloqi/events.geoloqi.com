@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121106T152959Z
+DTEND;VALUE=DATE:20121024
+DTSTART;VALUE=DATE:20121021
+DTSTAMP;VALUE=DATE-TIME:20121106T152959Z
+LAST-MODIFIED;VALUE=DATE-TIME:20121106T153400Z
+UID:http://events.geoloqi.com/events/5
+DESCRIPTION:This event runs from Sunday\, October 21\, 2012 at 8am throug
+ h Tuesday\, October 23\, 2012 at 9am.\n\n Description:\nCome join 500 of
+  your fellow mobile pros and garage-dwellers at CODESTRONG 2012\, beginn
+ ing October 21 in San Francisco. This mobile mini-marathon features thre
+ e days of executive keynotes\, over 30 workshops on specific topics\, an
+ d a hackathon for charity dubbed “Hack to Help” for anyone wishing t
+ o show off their skills in the limelight.\n\n\nTags: user:aaronpk\, user
+ :josh\, appcelerator\, codestrong\n\nImported from: http://events.geoloq
+ i.com/events/5
+URL:http://codestrong.com/
+SUMMARY:CodeStrong 2012
+LOCATION:Intercontinental Hotel San Francisco: 888 Howard Street\, San Fr
+ ancisco CA 94103 US
+SEQUENCE:3
+END:VEVENT
+END:VCALENDAR

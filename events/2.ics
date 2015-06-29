@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121105T183314Z
+DTEND;VALUE=DATE:20121118
+DTSTART;VALUE=DATE:20121116
+DTSTAMP;VALUE=DATE-TIME:20121105T183314Z
+LAST-MODIFIED;VALUE=DATE-TIME:20121106T211528Z
+UID:http://events.geoloqi.com/events/2
+DESCRIPTION:This event runs from Friday\, November 16\, 2012 at 9am throu
+ gh Saturday\, November 17\, 2012 at 6pm.\n\n Description:\nMobX - your p
+ remier annual conference for Mobile User Experience\, small screen Inter
+ action Design and usable interfaces on smart devices.\n\nThis conference
+  is for all you creative minds out there who deal with User Experience\,
+  interfaces and interactions in mobile contexts. It’s not really for d
+ evelopers (but we do love you\, nonetheless). MobX is for all those who 
+ love small\, mobile interfaces and smart experiences\, good usability an
+ d consistent behaviour.\n\nThere are a multitude of mobile gadgets\, pho
+ nes and tablets out there\, with a mind-boggling variety of interfaces 
+ – with often dubious usability. We operate small screens in cars\, tra
+ ins and planes and elsewhere.\n\nOr is there no such thing as a mobile d
+ evice\, as some say\, just mobile context? A star-studded line-up of int
+ ernational experts and mobile thinkers will give us their take on this a
+ nd other key topics. (And there will be time to party as well!)\n\nJoin 
+ us in Berlin and learn from the best.\n\nTags: user:caseorganic\, user:a
+ aronpk\, mobx\n\nImported from: http://events.geoloqi.com/events/2
+URL:http://mobx2012.blogspot.com/
+SUMMARY:MobX Berlin 2012
+LOCATION:Heimathafen Neukölln: Karl-Marx-Straße 141\, Berlin   
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

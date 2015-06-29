@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:STANDARD
+DTSTART:20121104T020000
+RDATE:20121104T020000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130227T050502Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130309T170000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130309T150000
+DTSTAMP;VALUE=DATE-TIME:20130227T050502Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130227T050541Z
+UID:http://events.geoloqi.com/events/33
+DESCRIPTION:Hang out with others interested in geo\, mobile\, maps\, and 
+ the future of location at the Esri Geo Happy Hour!\n\nWe'll have a photo
+  booth where you can turn yourself into a trading card\, or turn your fi
+ ngerprint into a 3D city you can zoom around with using your Kinect cont
+ roller. Legendary photog Kris Krug will be on hand to take epic photos! 
+ Free food and drinks will be provided from 3-5pm every day\, and the Esr
+ i Lavahouse will be open every day from Friday-Monday if you need a plac
+ e to work during the conference. \n\nTags: geo\, happy hour\, user:aaron
+ pk\, user:caseorganic\, sxsw\n\nImported from: http://events.geoloqi.com
+ /events/33
+URL:http://esri-geohappyhour-sxsw-eorg.eventbrite.com/
+SUMMARY:Esri Geo Happy Hour
+LOCATION:Esri Lavahouse @ Palazzo Lavacca: 1614 Lavaca Street \, Austin T
+ X 78701 US
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

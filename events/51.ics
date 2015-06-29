@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:20130310T020000
+RDATE:20130310T020000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130405T190904Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130408T210000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130408T190000
+DTSTAMP;VALUE=DATE-TIME:20130405T190904Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130405T190904Z
+UID:http://events.geoloqi.com/events/51
+DESCRIPTION:Ship It! Monday is a celebration of making things. Bring some
+ thing you made and tell the world about it.\n\nWhy you’d want to come:
+ \n\nto learn about new things and how they were made\nto hang out with o
+ ther people who are making things\nBecause\, shipping!\nRegister to come
+  watch\, or register as a shipper and demo something you've shipped rece
+ ntly\, or even better\, ship it live!\n\nTags: brio\, user:aaronpk\, use
+ r:caseorganic\n\nImported from: http://events.geoloqi.com/events/51
+URL:https://tito.io/shipweek/ship-it-monday
+SUMMARY:Ship It! Monday
+LOCATION:The Mansion House: Dawson St\, Dublin 2\, Co.\, Dublin Ireland  
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

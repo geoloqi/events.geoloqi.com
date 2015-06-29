@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:20120311T020000
+RDATE:20120311T020000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121110T170843Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20121103T180000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20121103T093000
+DTSTAMP;VALUE=DATE-TIME:20121110T170843Z
+LAST-MODIFIED;VALUE=DATE-TIME:20121110T170935Z
+UID:http://events.geoloqi.com/events/12
+DESCRIPTION:CyborgCamp is an unconference about the future of the relatio
+ nship between humans and technology. We’ll discuss topics such as soci
+ al media\, design\, code\, inventions\, web 2.0\, twitter\, the future o
+ f communication\, cyborg technology\, anthropology\, psychology\, and ph
+ ilosophy.\n\nThree scheduled speakers will give talks on biomedical engi
+ neering\, cybernetic control systems and the stock market\, and quantifi
+ ed self. The rest of the day will be unconference sessions.\n\nTags: use
+ r:aaronpk\, user:caseorganic\, user:kyledrake\, cyborgcamp\, cyborgs\, q
+ uantified self\n\nImported from: http://events.geoloqi.com/events/12
+URL:http://portland.cyborgcamp.com/
+SUMMARY:CyborgCamp Portland 2012
+LOCATION:Esri R&D Center Portland: 920 SW 3rd\, 4th floor\, Portland Oreg
+ on 97204 US
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

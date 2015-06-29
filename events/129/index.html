@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>
+      Esri Portland Anniversary Celebration! (aka anniversary of the Geoloqi acquisition) »       Geoloqi Events: Geoloqi&#x27;s Event Calendar    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=true">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel='search' type='application/opensearchdescription+xml' href='/opensearch.xml' title='Geoloqi Events' />
+
+    <!-- Stylesheets, static -->
+    <link href="/themes/geoloqi/stylesheets/reset.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/common.css?1350084766" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/formtastic.css?1350084766" media="all" rel="stylesheet" type="text/css" />
+    <link href="/themes/geoloqi/stylesheets/typography.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/geoloqi/stylesheets/forms.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/geoloqi/stylesheets/layout.css?1352159413" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/geoloqi/stylesheets/jquery-ui/jquery-ui.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/geoloqi/stylesheets/changes.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+    <link href="/themes/geoloqi/stylesheets/mobile.css?1352138868" media="only screen and (max-device-width: 960px)" rel="stylesheet" type="text/css" />
+
+	<!--[if IE]>
+      <link href="/themes/geoloqi/stylesheets/ie.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link href="/themes/geoloqi/stylesheets/print.css?1352138868" media="print" rel="stylesheet" type="text/css" />
+
+    <!-- Stylesheets, inserted  -->
+    
+
+    <!-- JavaScripts, static -->
+    <script src="/javascripts/all.js?1350084766" type="text/javascript"></script>
+
+    <!-- JavaScripts, inserted -->
+      <script src="/javascripts/mustache.js" type="text/javascript"></script>
+  <script type='text/javascript'>
+    $(function() {
+      var plan = $('.external.plancast.plan:first');
+      if (plan.length > 0) {
+        var plan_id = plan.text().split('=')[1];
+        $.getJSON("http://api.plancast.com/02/plans/show.json?jsonp=?",
+          { extensions: "attendees",
+            plan_id: plan_id },
+          function(data) {
+            if (data.attendees.length > 0) {
+              $('.attendees').append(Mustache.to_html($('#attendees-template').html(), data));
+            }
+          }
+        );
+      }
+    })
+  </script>
+
+
+    <!-- Auto-discovery, static -->
+    <link href="http://events.geoloqi.com/events.atom" rel="alternate" title="Atom: All Events" type="application/atom+xml" />
+
+    <!-- Auto-discovery, inserted -->
+      <link rel="alternate" type="application/x-wiki" title="Edit this page" href="http://events.geoloqi.com/events/129/edit" />
+
+
+    <link rel="apple-touch-icon" href="/images/site-icon.png" />
+  </head>
+  <body class="events_show events_controller ">
+
+  <div id="outer">
+    <div id="global_header">
+      <a href="/" id="project_title">Geoloqi Events</a>
+
+      <div id="top_menu">
+         <div id='app_menu'>
+          <ul>
+              <li class='active'><a href="/events">Events</a></li>
+              <li class='false'><a href="/venues">Venues</a></li>
+              <li class='false'><a href="/people">People</a></li>
+          </ul>
+        </div>
+<!--         <div id='project_menu'>
+          <strong>Get Involved:</strong> <a href="http://calagator.wordpress.com/" class="first">Blog</a> | <a href="http://groups.google.com/group/pdx-tech-calendar/">Forum</a> | <a href="https://github.com/calagator/calagator">Code</a>
+          <br />
+          <strong>Something not right?</strong> <a href="http://code.google.com/p/calagator/issues/list">File an issue</a> or <a href="http://getsatisfaction.com/calagator">get satisfaction</a>.
+        </div>
+ -->
+        <form accept-charset="UTF-8" action="/events/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+          <div id='search_form'>
+          <label for="search_field">Search Events</label>
+            <input id="search_field" name="query" type="text" />
+          </div>
+</form>      </div>
+    </div>
+
+
+    <div id="events_subnav" class="subnav">
+    <ul class="clearfix">
+      <li><a href="http://events.geoloqi.com/" class="events_show_subnav">Overview</a>
+      </li>
+      <li><a href="http://events.geoloqi.com/events" class="events_show_subnav">Browse events</a>
+      </li>
+    </ul>
+</div>
+
+    
+    
+    
+
+    <div id="content">
+      
+      
+
+
+<a href="#" id="event_sidebar_toggle" class="expander_toggle">Export or edit this event...</a>
+
+<div id="event_sidebar" class='single_view_right sidebar'>
+  <h3 class='first'>Export to</h3>
+  <ul>
+    <li><a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;trp=true&amp;text=Esri+Portland+Anniversary+Celebration%21+%28aka+anniversary+of+the+Geoloqi+acquisition%29&amp;dates=20131016T010000Z/20131016T030000Z&amp;location=Pints+Brewing+%2C+412+NW+5th+Ave%2C+Portland+OR+97209+&amp;details=Imported+from%3A+http%3A%2F%2Fevents.geoloqi.com%2Fevents%2F129+%0A%0AIt%27s+been+a+year+since+we%27ve+joined+Esri%2C+and+we%27ve+done+a+bunch+of+awesome+stuff+since+then%21+Come+celebrate+with+us%21%0A%0AThanks+to+everyone+who+joined+us+last+time%21+As+usual%2C+drinks+on+us%21%0A%0AWe%27ll+also+play+some+games+of+MapAttack%21%0A%0AImported+from%3A+http%3A%2F%2Fcalagator.org%2Fevents%2F1250464871...%5Btruncated%5D" id="google_calendar_export" target="_blank">Google Calendar</a></li>
+    <li><a href="http://events.geoloqi.com/events/129.ics">iCalendar file</a></li>
+    <li>
+      <a href="#" onclick="$(&quot;#hcal_field&quot;).toggle(); return false;">hCalendar markup</a>
+      <div id="hcal_field" style="display: none;">
+        <textarea cols="80" id="hCalendar" name="hCalendar" rows="10">
+<div class="vevent">
+  <h1 class="summary">Esri Portland Anniversary Celebration! (aka anniversary of the Geoloqi acquisition)</h1>
+  <div class='date'><abbr class="dtstart" title="2013-10-15T18:00:00">Tuesday, October 15, 2013 from 6</abbr>&ndash;<abbr class="dtend" title="2013-10-15T20:00:00">8pm</abbr></div>
+    <div class="location vcard">
+    <a class="url" href='http://events.geoloqi.com/venues/41'><span class='fn org'>Pints Brewing </span></a>
+    <div class="adr">
+        <div class="street-address">412 NW 5th Ave</div>
+        <span class="locality">Portland</span>
+        , <span class="region">OR</span>
+        <span class="postal-code">97209</span>
+        (<a href='http://maps.google.com/maps?q=412+NW+5th+Ave%2C+Portland+OR+97209+'>map</a>)
+    </div>
+    </div>
+  <div class="description">
+    <p>It's been a year since we've joined Esri, and we've done a bunch of awesome stuff since then! Come celebrate with us!</p>
+
+<p>Thanks to everyone who joined us last time! As usual, drinks on us!</p>
+
+<p>We'll also play some games of MapAttack!</p>
+
+<p>Imported from: <a href="http://calagator.org/events/1250464871">http://calagator.org/events/1250464871</a></p>
+  </div>
+</div>
+
+</textarea>
+      </div>
+    </li>
+  </ul>
+<hr />
+  <div id='edit_link'>
+    <p>
+      You can 
+      <a href="http://events.geoloqi.com/events/129/edit">edit</a>,
+      <a href="http://events.geoloqi.com/events/129/clone">clone</a>,
+      or 
+      <a href="http://events.geoloqi.com/events/129" data-confirm="Are you sure?" data-method="delete" rel="nofollow">delete</a>
+      this event.
+    </p>
+  </div>
+<hr />
+  <div id='metadata'>
+      This item was imported from <a href="/sources/4">http://calagator.org/events/125046487...</a> <br /><strong>Monday, September 16, 2013 at 3:05pm</strong> and last updated <br /><strong>Tuesday, October 15, 2013 at 2:40pm</strong>.
+  </div>
+</div>
+
+<div class="single_event contentbar">
+  <div class="vevent">
+    <h1 class="summary">Esri Portland Anniversary Celebration! (aka anniversary of the Geoloqi acquisition)</h1>
+    <div class='date'><abbr class="dtstart" title="2013-10-15T18:00:00">Tuesday, October 15, 2013 from 6</abbr>&ndash;<abbr class="dtend" title="2013-10-15T20:00:00">8pm</abbr></div>
+      <div class="clearfix location vcard">
+      
+          <a class="url" href='http://events.geoloqi.com/venues/41'>
+            <span class='fn org'>Pints Brewing </span>
+          </a>
+          
+          <div class="adr">
+          <div class="street-address">412 NW 5th Ave</div>
+            <span class="locality">Portland</span>,
+            <span class="region">OR</span>
+            <span class="postal-code">97209</span>
+            (<a href='http://maps.google.com/maps?q=412+NW+5th+Ave%2C+Portland+OR+97209+'>map</a>)
+
+
+
+
+      </div>
+  </div>
+
+
+    <h3>Description</h3>
+    <div class="description">
+      <p>It's been a year since we've joined Esri, and we've done a bunch of awesome stuff since then! Come celebrate with us!</p>
+
+<p>Thanks to everyone who joined us last time! As usual, drinks on us!</p>
+
+<p>We'll also play some games of MapAttack!</p>
+
+<p>Imported from: <a href="http://calagator.org/events/1250464871">http://calagator.org/events/1250464871</a></p>
+    </div>
+
+    <div class="attendees">
+      <script id="attendees-template" type="text/mustache">
+        <h3>Attendees</h3>
+        <span class='plancast-rsvp'>(<a href="{{plan_url}}">Count me in on Plancast</a>)</span>
+        <br />
+        <ul>
+          {{#attendees}}
+            <li>
+              {{#username}}<a href='http://plancast.com/{{username}}'><img class='avatar' src='{{pic_square}}'/></a>{{/username}}
+              {{^username}}<a href='http://plancast.com/user/{{id}}'><img class='avatar' src='{{pic_square}}'/></a>{{/username}}
+            </li>
+          {{/attendees}}
+        </ul>
+      </script>
+    </div>
+
+    <h3>Tags</h3>
+    <div class="tags">
+        <a href="/events/search?tag=esri" class="">esri</a>, <a href="/events/search?tag=startup" class="">startup</a>, <a href="/events/search?tag=geoloqi" class="">geoloqi</a>, <a href="/events/search?tag=acquisition" class="">acquisition</a>, <a href="/events/search?tag=beers" class="">beers</a>, <a href="/events/search?tag=mapattack" class="">mapattack</a>
+    </div>
+
+
+  </div>
+</div>
+
+
+    </div>
+
+    <div id="top_footer">
+      events.geoloqi.com
+       - Git timestamp:   Wed Jun 12 13:06:47 2013 -0700
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <span class="nowrap">
+        Display for
+        <a href="/events/129?mobile=1">mobile</a>,
+        <a href="/events/129?mobile=0">desktop</a> or
+        <a href="/events/129?mobile=-1">default</a>
+      </span>
+    </div>
+
+</div>
+
+      <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-168427-7");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+      </script>
+
+  </body>
+</html>

@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:STANDARD
+DTSTART:20121104T020000
+RDATE:20121104T020000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130227T050309Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130309T170000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130309T150000
+DTSTAMP;VALUE=DATE-TIME:20130227T050309Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130227T180252Z
+UID:http://events.geoloqi.com/events/31
+DESCRIPTION:Thanks to Esri for hosting the location of this year's offici
+ al OAuth meetup! We'll have plenty of space and free food and drink.\n\n
+ Come talk about the State of OAuth\, it's future\, implementation strate
+ gies and meet Aaron Parecki\, author of the upcoming O'Reilly book OAuth
+  2: The Definitive Guide. Whether you're new to OAuth or you use it ever
+ yday\, feel free to come to this event to meet others in the OAuth commu
+ nity. If you're up for it\, there will be discussions about IndieAuth\, 
+ OpenID\, BrowserID and other alternatives as well.\n\n\nTags: user:aaron
+ pk\, oauth\, oauth2\, sxsw\n\nImported from: http://events.geoloqi.com/e
+ vents/31
+URL:http://oauth-sxsw-meetup.eventbrite.com/
+SUMMARY:SXSW OAuth Meetup and Happy Hour
+LOCATION:Esri Lavahouse @ Palazzo Lavacca: 1614 Lavaca Street \, Austin T
+ X 78701 US
+SEQUENCE:4
+END:VEVENT
+END:VCALENDAR

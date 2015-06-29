@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121110T173219Z
+DTEND;VALUE=DATE:20130502
+DTSTART;VALUE=DATE:20130427
+DTSTAMP;VALUE=DATE-TIME:20121110T173219Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130430T212850Z
+UID:http://events.geoloqi.com/events/16
+DESCRIPTION:This event runs from Saturday\, April 27\, 2013 at 9am throug
+ h Wednesday\, May 1\, 2013 at 6pm.\n\n Description:\nTechCrunch Disrupt 
+ is one of the most anticipated technology conferences of the year. This 
+ April 27th – April 28th we will host the Hackathon and April 29th – 
+ May 1st\, TechCrunch will be bringing Disrupt back to New York to reveal
+  an all new slate of outstanding startups\, influential speakers\, guest
+ s\, and more to the stage.\n\nTags: techcrunch\, disrupt\, user:myles\n\
+ nImported from: http://events.geoloqi.com/events/16
+URL:http://techcrunch.com/events/disrupt-ny-2013/
+SUMMARY:TechCrunch Disrupt NYC 2013
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130328T191409Z
+DTEND;VALUE=DATE:20131114
+DTSTART;VALUE=DATE:20131111
+DTSTAMP;VALUE=DATE-TIME:20130328T191409Z
+LAST-MODIFIED;VALUE=DATE-TIME:20131107T001003Z
+UID:http://events.geoloqi.com/events/49
+DESCRIPTION:This event runs from Monday\, November 11\, 2013 at 8am throu
+ gh Wednesday\, November 13\, 2013 at 5pm.\n\n Description:\n\n\nTags: de
+ vsummit\, esri\, user:caseorganic\n\nImported from: http://events.geoloq
+ i.com/events/49
+URL:http://www.esri.com/events/devsummit-europe
+SUMMARY:DevSummit Europe
+LOCATION:Park Plaza Riverbank London: 18 Albert Embankment\, London   
+SEQUENCE:5
+END:VEVENT
+END:VCALENDAR

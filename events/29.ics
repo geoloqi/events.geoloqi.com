@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:20130310T020000
+RDATE:20130310T020000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130225T184828Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130310T150000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130310T100000
+DTSTAMP;VALUE=DATE-TIME:20130225T184828Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130301T003050Z
+UID:http://events.geoloqi.com/events/29
+DESCRIPTION:Come join us for awesome food and drinks at the Esri Geo Brun
+ ch at SXSW!\n\nThis is the only brunch in town where you'll be able to m
+ eet and talk with people interested in the future of mobile\, maps and l
+ ocation! In addition to food\, we'll have a photo booth where you can tu
+ rn yourself into a physical trading card\, and you'll be able to turn yo
+ ur fingerprints into a 3D city that you can zoom around in using an XBox
+  controller!\n\nFood and drinks are free and doors open at 10am for the 
+ brunch. Hang out until 2pm with interesting people. RSVP to hold your sp
+ ot!\n\nHow do I get there? \n\nThere's a trolley that you can take anyt
+ ime. It will be circling around the convention center and 7th street. Ju
+ st look for the trolley with the big Esri globe and hop on! You'll be dr
+ opped off right at the Lavahouse.\n\n \n\nTags: user:aaronpk\, user:cas
+ eorganic\, user:patrickarlt\, user:josh\, user:ryana\, sxsw\, user:court
+ f\, user:kenichi\, user:robinj\n\nImported from: http://events.geoloqi.c
+ om/events/29
+URL:http://esrigeobrunch.eventbrite.com/
+SUMMARY:Esri Geo Brunch at SXSW!
+LOCATION:Esri Lavahouse @ Palazzo Lavacca: 1614 Lavaca Street \, Austin T
+ X 78701 US
+SEQUENCE:8
+END:VEVENT
+END:VCALENDAR

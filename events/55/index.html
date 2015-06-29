@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>
+      Esri Dev Meet Up - Helping to Keep Portland on the Edge »       Geoloqi Events: Geoloqi&#x27;s Event Calendar    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=true">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel='search' type='application/opensearchdescription+xml' href='/opensearch.xml' title='Geoloqi Events' />
+
+    <!-- Stylesheets, static -->
+    <link href="/themes/geoloqi/stylesheets/reset.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/common.css?1350084766" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/formtastic.css?1350084766" media="all" rel="stylesheet" type="text/css" />
+    <link href="/themes/geoloqi/stylesheets/typography.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/geoloqi/stylesheets/forms.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/geoloqi/stylesheets/layout.css?1352159413" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/geoloqi/stylesheets/jquery-ui/jquery-ui.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/geoloqi/stylesheets/changes.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+    <link href="/themes/geoloqi/stylesheets/mobile.css?1352138868" media="only screen and (max-device-width: 960px)" rel="stylesheet" type="text/css" />
+
+	<!--[if IE]>
+      <link href="/themes/geoloqi/stylesheets/ie.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link href="/themes/geoloqi/stylesheets/print.css?1352138868" media="print" rel="stylesheet" type="text/css" />
+
+    <!-- Stylesheets, inserted  -->
+    
+
+    <!-- JavaScripts, static -->
+    <script src="/javascripts/all.js?1350084766" type="text/javascript"></script>
+
+    <!-- JavaScripts, inserted -->
+      <script src="/javascripts/mustache.js" type="text/javascript"></script>
+  <script type='text/javascript'>
+    $(function() {
+      var plan = $('.external.plancast.plan:first');
+      if (plan.length > 0) {
+        var plan_id = plan.text().split('=')[1];
+        $.getJSON("http://api.plancast.com/02/plans/show.json?jsonp=?",
+          { extensions: "attendees",
+            plan_id: plan_id },
+          function(data) {
+            if (data.attendees.length > 0) {
+              $('.attendees').append(Mustache.to_html($('#attendees-template').html(), data));
+            }
+          }
+        );
+      }
+    })
+  </script>
+
+
+    <!-- Auto-discovery, static -->
+    <link href="http://events.geoloqi.com/events.atom" rel="alternate" title="Atom: All Events" type="application/atom+xml" />
+
+    <!-- Auto-discovery, inserted -->
+      <link rel="alternate" type="application/x-wiki" title="Edit this page" href="http://events.geoloqi.com/events/55/edit" />
+
+
+    <link rel="apple-touch-icon" href="/images/site-icon.png" />
+  </head>
+  <body class="events_show events_controller ">
+
+  <div id="outer">
+    <div id="global_header">
+      <a href="/" id="project_title">Geoloqi Events</a>
+
+      <div id="top_menu">
+         <div id='app_menu'>
+          <ul>
+              <li class='active'><a href="/events">Events</a></li>
+              <li class='false'><a href="/venues">Venues</a></li>
+              <li class='false'><a href="/people">People</a></li>
+          </ul>
+        </div>
+<!--         <div id='project_menu'>
+          <strong>Get Involved:</strong> <a href="http://calagator.wordpress.com/" class="first">Blog</a> | <a href="http://groups.google.com/group/pdx-tech-calendar/">Forum</a> | <a href="https://github.com/calagator/calagator">Code</a>
+          <br />
+          <strong>Something not right?</strong> <a href="http://code.google.com/p/calagator/issues/list">File an issue</a> or <a href="http://getsatisfaction.com/calagator">get satisfaction</a>.
+        </div>
+ -->
+        <form accept-charset="UTF-8" action="/events/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+          <div id='search_form'>
+          <label for="search_field">Search Events</label>
+            <input id="search_field" name="query" type="text" />
+          </div>
+</form>      </div>
+    </div>
+
+
+    <div id="events_subnav" class="subnav">
+    <ul class="clearfix">
+      <li><a href="http://events.geoloqi.com/" class="events_show_subnav">Overview</a>
+      </li>
+      <li><a href="http://events.geoloqi.com/events" class="events_show_subnav">Browse events</a>
+      </li>
+    </ul>
+</div>
+
+    
+    
+    
+
+    <div id="content">
+      
+      
+
+
+<a href="#" id="event_sidebar_toggle" class="expander_toggle">Export or edit this event...</a>
+
+<div id="event_sidebar" class='single_view_right sidebar'>
+  <h3 class='first'>Export to</h3>
+  <ul>
+    <li><a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;trp=true&amp;text=Esri+Dev+Meet+Up+-+Helping+to+Keep+Portland+on+the+Edge&amp;dates=20130502T003000Z/20130502T043000Z&amp;location=Portland+City+Grille%2C+111+SW+5th+Ave.+30th+Floor%2C+Portland+OR+97204+&amp;sprop=website:www.meetup.com%2FDevMeetUpOregon%2Fevents%2F112474822%2F&amp;details=Imported+from%3A+http%3A%2F%2Fevents.geoloqi.com%2Fevents%2F55+%0A%0AIn+coordination+with+the+Oregon+and+Southwest+Washington+URISA+GIS+in+Action+conference%2C+we+will+be+hosting+an+Esri+Dev+Meet+Up+on+Wednesday%2C+May+1st.+Food+and+beverages+will+be+provided+at+the+meet+up.%0A%0AThe+Esri+Dev+Meet+Up+is+a+social+gathering+for+developers+to+discuss+geospatial+technologies%2C+complementary+third-party+tools%2C+and+development+platforms+%28e.g.%2C+Silverlight%2C+Java%2C+Flex%2C+JavaScript%29+that+are+supported+by+Esri.+Presentations+run+the+gamut+of+our+community%3A+from+Web+development+to+mobile+location+development+for+iOS%2C+Android+and+Windows+Phone+7+to+automating+tasks+with+Python.%0A%0ADevelopers+of+all+levels+of+expertise+are+we...%5Btruncated%5D" id="google_calendar_export" target="_blank">Google Calendar</a></li>
+    <li><a href="http://events.geoloqi.com/events/55.ics">iCalendar file</a></li>
+    <li>
+      <a href="#" onclick="$(&quot;#hcal_field&quot;).toggle(); return false;">hCalendar markup</a>
+      <div id="hcal_field" style="display: none;">
+        <textarea cols="80" id="hCalendar" name="hCalendar" rows="10">
+<div class="vevent">
+  <h1 class="summary">Esri Dev Meet Up - Helping to Keep Portland on the Edge</h1>
+  <div class='date'><abbr class="dtstart" title="2013-05-01T17:30:00">Wednesday, May 1, 2013 from 5:30</abbr>&ndash;<abbr class="dtend" title="2013-05-01T21:30:00">9:30pm</abbr></div>
+    <div class="location vcard">
+    <a class="url" href='http://events.geoloqi.com/venues/32'><span class='fn org'>Portland City Grille</span></a>
+    <div class="adr">
+        <div class="street-address">111 SW 5th Ave. 30th Floor</div>
+        <span class="locality">Portland</span>
+        , <span class="region">OR</span>
+        <span class="postal-code">97204</span>
+        (<a href='http://maps.google.com/maps?q=111+SW+5th+Ave.+30th+Floor%2C+Portland+OR+97204+'>map</a>)
+    </div>
+    </div>
+  <div class="description">
+    <p>In coordination with the Oregon and Southwest Washington URISA GIS in Action conference, we will be hosting an Esri Dev Meet Up on Wednesday, May 1st. Food and beverages will be provided at the meet up.</p>
+
+<p>The Esri Dev Meet Up is a social gathering for developers to discuss geospatial technologies, complementary third-party tools, and development platforms (e.g., Silverlight, Java, Flex, JavaScript) that are supported by Esri. Presentations run the gamut of our community: from Web development to mobile location development for iOS, Android and Windows Phone 7 to automating tasks with Python.</p>
+
+<p>Developers of all levels of expertise are welcome, from seasoned GIS professionals to those new to geospatial development.</p>
+
+<p>Meetup Schedule:</p>
+
+<p>*6:00 - 7:00 PM Registration and Social (Appetizers and Beverages served)</p>
+
+<p>*7:00 - 7:30 PM Keynote Speaker</p>
+
+<p>Jim Walter - Kimerasystems.com: Real World Experiences Creating Intelligent Mobile Devices Through Contextual Awareness and Persistent Location</p>
+
+<p>*7:30 - 8:30 PM Lightning talks</p>
+
+<p>Theresa Valentine from the USDA Forest Service "GeoNIS: Automating the Process of Integrating Spatial Data for 26 Long Term Ecological Research (LTER) sites, and Making Data Available via Map and Image Services"</p>
+
+<p>Paul Ferro is a GIS Analyst for DOGAMI. He will be presenting "Tips, Tricks, and Scripts for Planning Your Migration to ArcGIS Server 10.1." It will cover how to mine and archive 10 Web service properties for a 10.1 deployment and use Python to stage 10.1 service definitions in advance.</p>
+
+<p>Dana Maher is a Mobile Application Developer who works on Web and mobile applications, primarily relating to Emergency Management, Urban Planning, and Operational Support will present "Architecting a Mobile Common Operating Picture for Emergency Management." She will cover the architecture of an app that pulls from a disparate group of spatial data sources and formats to provide a common operating picture for Oregon emergency management.</p>
+
+<p>*8:30 - 9:30 PM Raffle, Networking and Social.</p>
+
+<p>Follow us on Twitter: @Al_Laframboise and @AmyNiessen</p>
+  </div>
+  <h3>Links</h3>
+  <ul>
+    <li><a href="http://www.meetup.com/DevMeetUpOregon/events/112474822/" class="url">Website</a></li>
+  </ul>
+</div>
+
+</textarea>
+      </div>
+    </li>
+  </ul>
+<hr />
+  <div id='edit_link'>
+    <p>
+      You can 
+      <a href="http://events.geoloqi.com/events/55/edit">edit</a>,
+      <a href="http://events.geoloqi.com/events/55/clone">clone</a>,
+      or 
+      <a href="http://events.geoloqi.com/events/55" data-confirm="Are you sure?" data-method="delete" rel="nofollow">delete</a>
+      this event.
+    </p>
+  </div>
+<hr />
+  <div id='metadata'>
+      This item was added directly to Geoloqi Events <br /><strong>Wednesday, May 1, 2013 at 1:27pm</strong>.
+  </div>
+</div>
+
+<div class="single_event contentbar">
+  <div class="vevent">
+    <h1 class="summary">Esri Dev Meet Up - Helping to Keep Portland on the Edge</h1>
+    <div class='date'><abbr class="dtstart" title="2013-05-01T17:30:00">Wednesday, May 1, 2013 from 5:30</abbr>&ndash;<abbr class="dtend" title="2013-05-01T21:30:00">9:30pm</abbr></div>
+      <div class="clearfix location vcard">
+      
+          <a class="url" href='http://events.geoloqi.com/venues/32'>
+            <span class='fn org'>Portland City Grille</span>
+          </a>
+          
+          <div class="adr">
+          <div class="street-address">111 SW 5th Ave. 30th Floor</div>
+            <span class="locality">Portland</span>,
+            <span class="region">OR</span>
+            <span class="postal-code">97204</span>
+            (<a href='http://maps.google.com/maps?q=111+SW+5th+Ave.+30th+Floor%2C+Portland+OR+97204+'>map</a>)
+
+
+
+
+      </div>
+  </div>
+
+      <h3>Website</h3>
+      <div class="website">
+        <a href="http://www.meetup.com/DevMeetUpOregon/events/112474822/" class="url" rel="nofollow">http://www.meetup.com/DevMeetUpOregon/events/112474822/</a>      </div>
+
+    <h3>Description</h3>
+    <div class="description">
+      <p>In coordination with the Oregon and Southwest Washington URISA GIS in Action conference, we will be hosting an Esri Dev Meet Up on Wednesday, May 1st. Food and beverages will be provided at the meet up.</p>
+
+<p>The Esri Dev Meet Up is a social gathering for developers to discuss geospatial technologies, complementary third-party tools, and development platforms (e.g., Silverlight, Java, Flex, JavaScript) that are supported by Esri. Presentations run the gamut of our community: from Web development to mobile location development for iOS, Android and Windows Phone 7 to automating tasks with Python.</p>
+
+<p>Developers of all levels of expertise are welcome, from seasoned GIS professionals to those new to geospatial development.</p>
+
+<p>Meetup Schedule:</p>
+
+<p>*6:00 - 7:00 PM Registration and Social (Appetizers and Beverages served)</p>
+
+<p>*7:00 - 7:30 PM Keynote Speaker</p>
+
+<p>Jim Walter - Kimerasystems.com: Real World Experiences Creating Intelligent Mobile Devices Through Contextual Awareness and Persistent Location</p>
+
+<p>*7:30 - 8:30 PM Lightning talks</p>
+
+<p>Theresa Valentine from the USDA Forest Service "GeoNIS: Automating the Process of Integrating Spatial Data for 26 Long Term Ecological Research (LTER) sites, and Making Data Available via Map and Image Services"</p>
+
+<p>Paul Ferro is a GIS Analyst for DOGAMI. He will be presenting "Tips, Tricks, and Scripts for Planning Your Migration to ArcGIS Server 10.1." It will cover how to mine and archive 10 Web service properties for a 10.1 deployment and use Python to stage 10.1 service definitions in advance.</p>
+
+<p>Dana Maher is a Mobile Application Developer who works on Web and mobile applications, primarily relating to Emergency Management, Urban Planning, and Operational Support will present "Architecting a Mobile Common Operating Picture for Emergency Management." She will cover the architecture of an app that pulls from a disparate group of spatial data sources and formats to provide a common operating picture for Oregon emergency management.</p>
+
+<p>*8:30 - 9:30 PM Raffle, Networking and Social.</p>
+
+<p>Follow us on Twitter: @Al_Laframboise and @AmyNiessen</p>
+    </div>
+
+    <div class="attendees">
+      <script id="attendees-template" type="text/mustache">
+        <h3>Attendees</h3>
+        <span class='plancast-rsvp'>(<a href="{{plan_url}}">Count me in on Plancast</a>)</span>
+        <br />
+        <ul>
+          {{#attendees}}
+            <li>
+              {{#username}}<a href='http://plancast.com/{{username}}'><img class='avatar' src='{{pic_square}}'/></a>{{/username}}
+              {{^username}}<a href='http://plancast.com/user/{{id}}'><img class='avatar' src='{{pic_square}}'/></a>{{/username}}
+            </li>
+          {{/attendees}}
+        </ul>
+      </script>
+    </div>
+
+    <h3>Tags</h3>
+    <div class="tags">
+        <a href="/events/search?tag=esri" class="">esri</a>, <a href="/events/search?tag=GIS" class="">GIS</a>, <a href="/events/search?tag=meetup" class="">meetup</a>
+    </div>
+
+    <h3>Who will be there?</h3>
+    <div class="tags">
+        <a href="/people/1" class=""><div><img src="http://events.geoloqi.com/avatars/caseorganic.jpg" class="photo thumbnail" width="50" /> Amber Case</div></a>
+    </div>
+
+  </div>
+</div>
+
+
+    </div>
+
+    <div id="top_footer">
+      events.geoloqi.com
+       - Git timestamp:   Wed Jun 12 13:06:47 2013 -0700
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <span class="nowrap">
+        Display for
+        <a href="/events/55?mobile=1">mobile</a>,
+        <a href="/events/55?mobile=0">desktop</a> or
+        <a href="/events/55?mobile=-1">default</a>
+      </span>
+    </div>
+
+</div>
+
+      <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-168427-7");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+      </script>
+
+  </body>
+</html>

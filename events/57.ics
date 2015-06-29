@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130507T181101Z
+DTEND;VALUE=DATE:20130518
+DTSTART;VALUE=DATE:20130515
+DTSTAMP;VALUE=DATE-TIME:20130507T181101Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130507T181101Z
+UID:http://events.geoloqi.com/events/57
+DESCRIPTION:This event runs from Wednesday\, May 15\, 2013 at 8am through
+  Friday\, May 17\, 2013 at 7pm.\n\n Description:\n\n\nTags: user:caseorg
+ anic\, user:ryana\n\nImported from: http://events.geoloqi.com/events/57
+URL:https://developers.google.com/events/io/
+SUMMARY:Google I/O
+LOCATION:Moscone Center: 747 Howard St\, San Francisco CA 94103 
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

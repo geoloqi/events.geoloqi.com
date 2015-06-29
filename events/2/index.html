@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>
+      MobX Berlin 2012 »       Geoloqi Events: Geoloqi&#x27;s Event Calendar    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=true">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel='search' type='application/opensearchdescription+xml' href='/opensearch.xml' title='Geoloqi Events' />
+
+    <!-- Stylesheets, static -->
+    <link href="/themes/geoloqi/stylesheets/reset.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/common.css?1350084766" media="all" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/formtastic.css?1350084766" media="all" rel="stylesheet" type="text/css" />
+    <link href="/themes/geoloqi/stylesheets/typography.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/geoloqi/stylesheets/forms.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/geoloqi/stylesheets/layout.css?1352159413" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/geoloqi/stylesheets/jquery-ui/jquery-ui.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/geoloqi/stylesheets/changes.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+    <link href="/themes/geoloqi/stylesheets/mobile.css?1352138868" media="only screen and (max-device-width: 960px)" rel="stylesheet" type="text/css" />
+
+	<!--[if IE]>
+      <link href="/themes/geoloqi/stylesheets/ie.css?1352138868" media="all" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link href="/themes/geoloqi/stylesheets/print.css?1352138868" media="print" rel="stylesheet" type="text/css" />
+
+    <!-- Stylesheets, inserted  -->
+    
+
+    <!-- JavaScripts, static -->
+    <script src="/javascripts/all.js?1350084766" type="text/javascript"></script>
+
+    <!-- JavaScripts, inserted -->
+      <script src="/javascripts/mustache.js" type="text/javascript"></script>
+  <script type='text/javascript'>
+    $(function() {
+      var plan = $('.external.plancast.plan:first');
+      if (plan.length > 0) {
+        var plan_id = plan.text().split('=')[1];
+        $.getJSON("http://api.plancast.com/02/plans/show.json?jsonp=?",
+          { extensions: "attendees",
+            plan_id: plan_id },
+          function(data) {
+            if (data.attendees.length > 0) {
+              $('.attendees').append(Mustache.to_html($('#attendees-template').html(), data));
+            }
+          }
+        );
+      }
+    })
+  </script>
+
+
+    <!-- Auto-discovery, static -->
+    <link href="http://events.geoloqi.com/events.atom" rel="alternate" title="Atom: All Events" type="application/atom+xml" />
+
+    <!-- Auto-discovery, inserted -->
+      <link rel="alternate" type="application/x-wiki" title="Edit this page" href="http://events.geoloqi.com/events/2/edit" />
+
+
+    <link rel="apple-touch-icon" href="/images/site-icon.png" />
+  </head>
+  <body class="events_show events_controller ">
+
+  <div id="outer">
+    <div id="global_header">
+      <a href="/" id="project_title">Geoloqi Events</a>
+
+      <div id="top_menu">
+         <div id='app_menu'>
+          <ul>
+              <li class='active'><a href="/events">Events</a></li>
+              <li class='false'><a href="/venues">Venues</a></li>
+              <li class='false'><a href="/people">People</a></li>
+          </ul>
+        </div>
+<!--         <div id='project_menu'>
+          <strong>Get Involved:</strong> <a href="http://calagator.wordpress.com/" class="first">Blog</a> | <a href="http://groups.google.com/group/pdx-tech-calendar/">Forum</a> | <a href="https://github.com/calagator/calagator">Code</a>
+          <br />
+          <strong>Something not right?</strong> <a href="http://code.google.com/p/calagator/issues/list">File an issue</a> or <a href="http://getsatisfaction.com/calagator">get satisfaction</a>.
+        </div>
+ -->
+        <form accept-charset="UTF-8" action="/events/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+          <div id='search_form'>
+          <label for="search_field">Search Events</label>
+            <input id="search_field" name="query" type="text" />
+          </div>
+</form>      </div>
+    </div>
+
+
+    <div id="events_subnav" class="subnav">
+    <ul class="clearfix">
+      <li><a href="http://events.geoloqi.com/" class="events_show_subnav">Overview</a>
+      </li>
+      <li><a href="http://events.geoloqi.com/events" class="events_show_subnav">Browse events</a>
+      </li>
+    </ul>
+</div>
+
+    
+    
+    
+
+    <div id="content">
+      
+      
+
+
+<a href="#" id="event_sidebar_toggle" class="expander_toggle">Export or edit this event...</a>
+
+<div id="event_sidebar" class='single_view_right sidebar'>
+  <h3 class='first'>Export to</h3>
+  <ul>
+    <li><a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;trp=true&amp;text=MobX+Berlin+2012&amp;dates=20121116T170000Z/20121118T020000Z&amp;location=Heimathafen+Neuk%C3%B6lln%2C+Karl-Marx-Stra%C3%9Fe+141%2C+Berlin+++&amp;sprop=website:mobx2012.blogspot.com%2F&amp;details=Imported+from%3A+http%3A%2F%2Fevents.geoloqi.com%2Fevents%2F2+%0A%0AMobX+-+your+premier+annual+conference+for+Mobile+User+Experience%2C+small+screen+Interaction+Design+and+usable+interfaces+on+smart+devices.%0A%0AThis+conference+is+for+all+you+creative+minds+out+there+who+deal+with+User+Experience%2C+interfaces+and+interactions+in+mobile+contexts.+It%E2%80%99s+not+really+for+developers+%28but+we+do+love+you%2C+nonetheless%29.+MobX+is+for+all+those+who+love+small%2C+mobile+interfaces+and+smart+experiences%2C+good+usability+and+consistent+behaviour.%0A%0AThere+are+a+multitude+of+mobile+gadgets%2C+phones+and+tablets+out+there%2C+with+a+mind-boggling+variety+of+interfaces+%E2%80%93+with+often+dubious+usability.+We+operate+small+screens+in+cars%2C+trains+and+planes+and+elsewhere.%0A%0AOr+is+there+no+such+thing+as+a+mobile+device...%5Btruncated%5D" id="google_calendar_export" target="_blank">Google Calendar</a></li>
+    <li><a href="http://events.geoloqi.com/events/2.ics">iCalendar file</a></li>
+    <li>
+      <a href="#" onclick="$(&quot;#hcal_field&quot;).toggle(); return false;">hCalendar markup</a>
+      <div id="hcal_field" style="display: none;">
+        <textarea cols="80" id="hCalendar" name="hCalendar" rows="10">
+<div class="vevent">
+  <h1 class="summary">MobX Berlin 2012</h1>
+  <div class='date'><abbr class="dtstart" title="2012-11-16T09:00:00">Friday, November 16, 2012 at 9am</abbr> through <abbr class="dtend" title="2012-11-17T18:00:00">Saturday, November 17, 2012 at 6pm</abbr></div>
+    <div class="location vcard">
+    <a class="url" href='http://events.geoloqi.com/venues/2'><span class='fn org'>Heimathafen Neukölln</span></a>
+    <div class="adr">
+        <div class="street-address">Karl-Marx-Straße 141</div>
+        <span class="locality">Berlin</span>
+        (<a href='http://maps.google.com/maps?q=Karl-Marx-Stra%C3%9Fe+141%2C+Berlin+++'>map</a>)
+    </div>
+    </div>
+  <div class="description">
+    <p>MobX - your premier annual conference for Mobile User Experience, small screen Interaction Design and usable interfaces on smart devices.</p>
+
+<p>This conference is for all you creative minds out there who deal with User Experience, interfaces and interactions in mobile contexts. It’s not really for developers (but we do love you, nonetheless). MobX is for all those who love small, mobile interfaces and smart experiences, good usability and consistent behaviour.</p>
+
+<p>There are a multitude of mobile gadgets, phones and tablets out there, with a mind-boggling variety of interfaces – with often dubious usability. We operate small screens in cars, trains and planes and elsewhere.</p>
+
+<p>Or is there no such thing as a mobile device, as some say, just mobile context? A star-studded line-up of international experts and mobile thinkers will give us their take on this and other key topics. (And there will be time to party as well!)</p>
+
+<p>Join us in Berlin and learn from the best.</p>
+  </div>
+  <h3>Links</h3>
+  <ul>
+    <li><a href="http://mobx2012.blogspot.com/" class="url">Website</a></li>
+  </ul>
+</div>
+
+</textarea>
+      </div>
+    </li>
+  </ul>
+<hr />
+  <div id='edit_link'>
+    <p>
+      You can 
+      <a href="http://events.geoloqi.com/events/2/edit">edit</a>,
+      <a href="http://events.geoloqi.com/events/2/clone">clone</a>,
+      or 
+      <a href="http://events.geoloqi.com/events/2" data-confirm="Are you sure?" data-method="delete" rel="nofollow">delete</a>
+      this event.
+    </p>
+  </div>
+<hr />
+  <div id='metadata'>
+      This item was added directly to Geoloqi Events <br /><strong>Monday, November 5, 2012 at 10:33am</strong> and last updated <br /><strong>Tuesday, November 6, 2012 at 1:15pm</strong>.
+  </div>
+</div>
+
+<div class="single_event contentbar">
+  <div class="vevent">
+    <h1 class="summary">MobX Berlin 2012</h1>
+    <div class='date'><abbr class="dtstart" title="2012-11-16T09:00:00">Friday, November 16, 2012 at 9am</abbr> through <abbr class="dtend" title="2012-11-17T18:00:00">Saturday, November 17, 2012 at 6pm</abbr></div>
+      <div class="clearfix location vcard">
+      
+          <a class="url" href='http://events.geoloqi.com/venues/2'>
+            <span class='fn org'>Heimathafen Neukölln</span>
+          </a>
+          
+          <div class="adr">
+          <div class="street-address">Karl-Marx-Straße 141</div>
+            <span class="locality">Berlin</span>
+            (<a href='http://maps.google.com/maps?q=Karl-Marx-Stra%C3%9Fe+141%2C+Berlin+++'>map</a>)
+
+
+
+
+      </div>
+  </div>
+
+      <h3>Website</h3>
+      <div class="website">
+        <a href="http://mobx2012.blogspot.com/" class="url" rel="nofollow">http://mobx2012.blogspot.com/</a>      </div>
+
+    <h3>Description</h3>
+    <div class="description">
+      <p>MobX - your premier annual conference for Mobile User Experience, small screen Interaction Design and usable interfaces on smart devices.</p>
+
+<p>This conference is for all you creative minds out there who deal with User Experience, interfaces and interactions in mobile contexts. It’s not really for developers (but we do love you, nonetheless). MobX is for all those who love small, mobile interfaces and smart experiences, good usability and consistent behaviour.</p>
+
+<p>There are a multitude of mobile gadgets, phones and tablets out there, with a mind-boggling variety of interfaces – with often dubious usability. We operate small screens in cars, trains and planes and elsewhere.</p>
+
+<p>Or is there no such thing as a mobile device, as some say, just mobile context? A star-studded line-up of international experts and mobile thinkers will give us their take on this and other key topics. (And there will be time to party as well!)</p>
+
+<p>Join us in Berlin and learn from the best.</p>
+    </div>
+
+    <div class="attendees">
+      <script id="attendees-template" type="text/mustache">
+        <h3>Attendees</h3>
+        <span class='plancast-rsvp'>(<a href="{{plan_url}}">Count me in on Plancast</a>)</span>
+        <br />
+        <ul>
+          {{#attendees}}
+            <li>
+              {{#username}}<a href='http://plancast.com/{{username}}'><img class='avatar' src='{{pic_square}}'/></a>{{/username}}
+              {{^username}}<a href='http://plancast.com/user/{{id}}'><img class='avatar' src='{{pic_square}}'/></a>{{/username}}
+            </li>
+          {{/attendees}}
+        </ul>
+      </script>
+    </div>
+
+    <h3>Tags</h3>
+    <div class="tags">
+        <a href="/events/search?tag=mobx" class="">mobx</a>
+    </div>
+
+    <h3>Who will be there?</h3>
+    <div class="tags">
+        <a href="/people/1" class=""><div><img src="http://events.geoloqi.com/avatars/caseorganic.jpg" class="photo thumbnail" width="50" /> Amber Case</div></a> <a href="/people/2" class=""><div><img src="http://events.geoloqi.com/avatars/aaronpk.jpg" class="photo thumbnail" width="50" /> Aaron Parecki</div></a>
+    </div>
+
+  </div>
+</div>
+
+
+    </div>
+
+    <div id="top_footer">
+      events.geoloqi.com
+       - Git timestamp:   Wed Jun 12 13:06:47 2013 -0700
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      <span class="nowrap">
+        Display for
+        <a href="/events/2?mobile=1">mobile</a>,
+        <a href="/events/2?mobile=0">desktop</a> or
+        <a href="/events/2?mobile=-1">default</a>
+      </span>
+    </div>
+
+</div>
+
+      <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-168427-7");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+      </script>
+
+  </body>
+</html>

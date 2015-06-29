@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:20130310T020000
+RDATE:20130310T020000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130916T220551Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20131015T200000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20131015T180000
+DTSTAMP;VALUE=DATE-TIME:20130916T220551Z
+LAST-MODIFIED;VALUE=DATE-TIME:20131015T214025Z
+UID:http://events.geoloqi.com/events/129
+DESCRIPTION:It's been a year since we've joined Esri\, and we've done a b
+ unch of awesome stuff since then! Come celebrate with us!\n\nThanks to e
+ veryone who joined us last time! As usual\, drinks on us!\n\nWe'll also 
+ play some games of MapAttack!\n\nImported from: http://calagator.org/eve
+ nts/1250464871\n\nTags: esri\, startup\, geoloqi\, acquisition\, beers\,
+  mapattack\n\nImported from: http://events.geoloqi.com/events/129
+SUMMARY:Esri Portland Anniversary Celebration! (aka anniversary of the Ge
+ oloqi acquisition)
+LOCATION:Pints Brewing : 412 NW 5th Ave\, Portland OR 97209 
+SEQUENCE:3
+END:VEVENT
+END:VCALENDAR

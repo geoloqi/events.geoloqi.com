@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+  <Placemark>
+    <name>Times Center Manhattan</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-73.989,40.756</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Eurosites Les Docks</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>2.2884,48.8634</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hub Seattle</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-122.3314,47.6007</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Intercontinental Hotel San Francisco</name>
+    <description><![CDATA[The InterContinental San Francisco Hotel, a graceful tower of translucent cool-blue, soars 32 stories above the vibrant South of Market (SoMa) neighborhood of San Francisco, and is among the city's most admired landmarks.]]></description>
+    <Point>
+      <coordinates>-122.4048,37.7821</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>PureSpace</name>
+    <description><![CDATA[Located in the heart of Portland’s Pearl District, the home of RealtimeConf 2012 is a distinctly modern two-story building with expansive glass walls, exposed concrete floors, and a 40-foot hangar style ceiling. The venue is also surrounded by award-winning restaurants, world-class shopping—and did we mention coffee?]]></description>
+    <Point>
+      <coordinates>-122.685,45.5324</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Metro Regional Center</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-122.6605,45.5275</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Oregon Convention Center</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-122.6615,45.5316</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Esri R&amp;amp;D Center Portland</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-122.6761,45.5164</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>De Brakke Grond</name>
+    <description><![CDATA[The Flemish Arts Centre 'De Brakke Grond' offers the most significant developments, contemporary art productions from Flanders, including visual art, literature, dance and theatre, music, performance, film and new media.]]></description>
+    <Point>
+      <coordinates>4.8938,52.3711</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hyatt Place San Jose</name>
+    <description><![CDATA[The Hyatt Place is located in beautiful downtown San Jose, accessible to all major freeways, adjacent to light rail and train stations.
+
+Located just 4 1/2 miles from the Mineta San Jose International Airport, it is easily accessible to many popular tourist destinations including, Tech Museum, San Jose Museum of Art, and Children’s Discovery Museum. ]]></description>
+    <Point>
+      <coordinates>-121.8911,37.3301</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Turtle Bay Resort</name>
+    <description><![CDATA[Turtle Bay Resort also features two lushly landscaped pool areas, championship golf courses by Palmer and Fazio, tennis courts, horseback riding, hiking and mountain bike trails, a surfing school, outstanding dining and now, Surfer The Bar where local surfing legends and guests of the hotel congregate. Click on Special Offers to find a package with accommodations and activities to create the Hawaii vacation of your dreams.]]></description>
+    <Point>
+      <coordinates>-157.9923,21.6976</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Foursquare SF</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-122.403,37.7814</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The View</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>4.8923,52.3699</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Urban Airship</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-122.6819,45.5256</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Green Dragon Bistro &amp;amp; Brewpub</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-122.6567,45.5159</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walmart Labs</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-122.5118,45.5018</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Esri HQ</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-117.1957,34.0565</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hilton Austin Downtown</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-97.7386,30.2653</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Palm Springs Convention Center</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-116.5382,33.8259</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>San Diego Convention Center</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-117.1638,32.7079</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Portland State University</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-122.6842,45.5118</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Esri Lavahouse @ Palazzo Lavacca</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>-97.7415,30.279</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gashouder</name>
+    <description><![CDATA[]]></description>
+    <Point>
+      <coordinates>4.8687,52.387</coordinates>
+    </Point>
+  </Placemark>
+  </Document>
+</kml>

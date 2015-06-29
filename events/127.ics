@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130830T202009Z
+DTEND;VALUE=DATE:20131020
+DTSTART;VALUE=DATE:20131018
+DTSTAMP;VALUE=DATE-TIME:20130830T202009Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130830T202009Z
+UID:http://events.geoloqi.com/events/127
+DESCRIPTION:This event runs from Friday\, October 18\, 2013 at 10am throu
+ gh Saturday\, October 19\, 2013 at 6pm.\n\n Description:\nRealtimeConf i
+ s a not-for-profit event\nassembling the diverse developers and doers\nw
+ ho push forward the bleeding edge of the web.\n\nWe put our whole crazy/
+ creative/risky hearts\ninto the event in the hopes you will too.\n\nOur 
+ mission is to help you bring open communication to the Open Web.\n\nTags
+ : user:aaronpk\, user:caseorganic\, user:courtf\, user:jerrysv\, user:ke
+ nichi\, realtimeconf\, user:poeks\, user: patrickarlt\n\nImported from: 
+ http://events.geoloqi.com/events/127
+URL:http://2013.realtimeconf.com/
+SUMMARY:Realtime Conference
+LOCATION:Sandbox Studios: 420 NE 9th Ave\, Portland OR 97232 
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

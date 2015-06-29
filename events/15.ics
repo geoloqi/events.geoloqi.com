@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121110T173025Z
+DTEND;VALUE=DATE:20130427
+DTSTART;VALUE=DATE:20130425
+DTSTAMP;VALUE=DATE-TIME:20121110T173025Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130330T202927Z
+UID:http://events.geoloqi.com/events/15
+DESCRIPTION:This event runs from Thursday\, April 25\, 2013 at 9am throug
+ h Friday\, April 26\, 2013 at 6pm.\n\n Description:\n\n\nTags: thenextwe
+ b\, user:kenichi\n\nImported from: http://events.geoloqi.com/events/15
+URL:http://thenextweb.com/conference/europe/
+SUMMARY:The Next Web Europe 2013
+LOCATION:Gashouder: Klönneplein 1\, Amsterdam   
+SEQUENCE:5
+END:VEVENT
+END:VCALENDAR

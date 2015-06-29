@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130211T180635Z
+DTEND;VALUE=DATE:20130713
+DTSTART;VALUE=DATE:20130708
+DTSTAMP;VALUE=DATE-TIME:20130211T180635Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130221T185840Z
+UID:http://events.geoloqi.com/events/27
+DESCRIPTION:This event runs from Monday\, July 8\, 2013 at 8am through Fr
+ iday\, July 12\, 2013 at 5pm.\n\n Description:\nWith nearly 1\,000 semin
+ ars\, the 2013 UC will cover everything from the emerging trends of the 
+ big data movement\, to BI integration of location analytics\, the evolut
+ ion of the “apps” space\, and the continued development of the cloud
+ .  \n\nTake this opportunity to get connected with other registered atte
+ ndees who share your passion to explore the world through GIS. United we
+  map!\n\nTags: esri\, user:aaronpk\, user:bronwyn\, user:caseorganic\, u
+ ser:courtf\, user:jerrysv\, user:jim2\, user:josh\, user:kenichi\, user:
+ patrickarlt\, user:paulcpederson\, user:robinj\, user:ryana\, esriuc\n\n
+ Imported from: http://events.geoloqi.com/events/27
+URL:http://www.esri.com/events/user-conference/
+SUMMARY:Esri User Conference
+LOCATION:San Diego Convention Center: 111 W Harbor Dr\, San Diego CA 9210
+ 1 US
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

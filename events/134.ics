@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20131106T220114Z
+DTEND;VALUE=DATE:20131116
+DTSTART;VALUE=DATE:20131114
+DTSTAMP;VALUE=DATE-TIME:20131106T220114Z
+LAST-MODIFIED;VALUE=DATE-TIME:20131106T220114Z
+UID:http://events.geoloqi.com/events/134
+DESCRIPTION:This event runs from Thursday\, November 14\, 2013 at 9am thr
+ ough Friday\, November 15\, 2013 at 5pm.\n\n Description:\nCascadiaJS is
+  a two-day conference on the cutting edge of JavaScript. Browser\, serve
+ r\, OS – we cover it all.\n\nTags: user:jerrysv\, user:patrickarlt\, j
+ s\, nodejs\n\nImported from: http://events.geoloqi.com/events/134
+URL:http://2013.cascadiajs.com/
+SUMMARY:Cascadia JS
+LOCATION:Moda Hotel: 900 Seymour Street\, Vancouver BC  
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

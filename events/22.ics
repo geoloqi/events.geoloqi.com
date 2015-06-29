@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:STANDARD
+DTSTART:20121104T020000
+RDATE:20121104T020000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130201T221346Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130207T210000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130207T183000
+DTSTAMP;VALUE=DATE-TIME:20130201T221346Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130206T231437Z
+UID:http://events.geoloqi.com/events/22
+DESCRIPTION:Join us for the first meeting of the Portland Node users grou
+ p. We'll have food\, code\, and a lovely presentation about Terraformer 
+ from Esri by Jerry Sievert. \n\n--What is Terraformer?--\n\nTerraformer 
+ is a library for converting geographic data between different mapping fo
+ rmats and GeoJSON. But it's more than that\, it's a Geo-Toolkit that wor
+ ks in node as well as in the browser via AMD or CommonJS\, providing too
+ ls for reading and writing from multiple geo formats\, converting to and
+  from web mercator\, an RTree index\, and some simple polygon tools.\n\n
+ You can check it out at https://github.com/geoloqi/Terraformer\n\nWe'll 
+ also get cracking on what direction we'd like to take the group!\n\n\nTa
+ gs: node.js\, meetup\, user:jerrysv\, user:aaronpk\, user:kenichi\, prog
+ ramming\, user group\, javascript\, user:kyledrake\, user:patrickarlt\, 
+ user:ryana\, user:caseorganic\n\nImported from: http://events.geoloqi.co
+ m/events/22
+SUMMARY:PDX Node
+LOCATION:Walmart Labs: 210 SW Morrison Portland St.\, Portland OR 97204 U
+ S
+SEQUENCE:14
+END:VEVENT
+END:VCALENDAR

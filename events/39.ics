@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130318T210051Z
+DTEND;VALUE=DATE:20130411
+DTSTART;VALUE=DATE:20130409
+DTSTAMP;VALUE=DATE-TIME:20130318T210051Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130318T210051Z
+UID:http://events.geoloqi.com/events/39
+DESCRIPTION:This event runs from Tuesday\, April 9\, 2013 at 9am through 
+ Wednesday\, April 10\, 2013 at 5pm.\n\n Description:\nA conference about
+  the future of being entrepreneurial.\n\nThis conference isn’t about r
+ omanticizing entrepreneurship or funding a startup.\n\nIt’s about the 
+ vibrant spirit and ethic of businesses who care about people\, think lon
+ g-term\, and seek to better the world within their sphere of influence.\
+ n\nWe aim to provoke and sustain your idealism.\n\nTags: user:aaronpk\, 
+ user:caseorganic\, brio\n\nImported from: http://events.geoloqi.com/even
+ ts/39
+URL:http://2013.brioconference.com/
+SUMMARY:Brio Conference
+LOCATION:The Mansion House: Dawson St\, Dublin 2\, Co.\, Dublin Ireland  
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

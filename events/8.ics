@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121106T211321Z
+DTEND;VALUE=DATE:20121015
+DTSTART;VALUE=DATE:20121013
+DTSTAMP;VALUE=DATE-TIME:20121106T211321Z
+LAST-MODIFIED;VALUE=DATE-TIME:20121106T211551Z
+UID:http://events.geoloqi.com/events/8
+DESCRIPTION:This event runs from Saturday\, October 13\, 2012 at 9am thro
+ ugh Sunday\, October 14\, 2012 at 6pm.\n\n Description:\nThe OpenStreetM
+ ap conference brings together people who care about OpenStreetMap to adv
+ ance the world's free community map.\n\nTags: user:aaronpk\, user:caseor
+ ganic\, user:kyledrake\, sotm\, stateofthemap\, openstreetmap\n\nImporte
+ d from: http://events.geoloqi.com/events/8
+URL:http://stateofthemap.us/
+SUMMARY:State of the Map 2012
+LOCATION:Oregon Convention Center: 777 NE MLK\, Jr. Blvd.\, Portland OR 9
+ 7232 US
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

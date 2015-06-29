@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:20130310T020000
+RDATE:20130310T020000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130414T232518Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130419T100000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130419T083000
+DTSTAMP;VALUE=DATE-TIME:20130414T232518Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130414T232518Z
+UID:http://events.geoloqi.com/events/52
+DESCRIPTION:CreativeMornings is a monthly morning gathering for creative 
+ types. Each event includes a 20 minute lecture\, followed by a 20 minute
+  group discussion. The gathering begins at 8:30am with the topic present
+ ation starting at 9:00am and everyone taking off for work at 10am. Creat
+ iveMornings are free of charge!\n\nTags: user:caseorganic\, creativemorn
+ ings\n\nImported from: http://events.geoloqi.com/events/52
+URL:http://portlandcreativemornings.eventbrite.com/
+SUMMARY:CreativeMornings: The Future
+LOCATION:Hollywood Theater: 4122 NE Sandy Blvd\, Portland OR  
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121105T181737Z
+DTEND;VALUE=DATE:20121110
+DTSTART;VALUE=DATE:20121108
+DTSTAMP;VALUE=DATE-TIME:20121105T181737Z
+LAST-MODIFIED;VALUE=DATE-TIME:20121105T183426Z
+UID:http://events.geoloqi.com/events/1
+DESCRIPTION:This event runs from Thursday\, November 8\, 2012 at 9am thro
+ ugh Friday\, November 9\, 2012 at 4pm.\n\n Description:\nVISUALIZED expl
+ ores the evolution of communication at the intersection of big data\, st
+ orytelling and design.\n\nJoin us for an inspiring two-day gathering wit
+ h the brightest minds and social innovators from around the world who ar
+ e changing how we understand and interact with data\; and gain insight i
+ nto designing data-driven narratives that connect with audiences and vis
+ ualize the human experience.\n\nTags: dataviz\, user:caseorganic\n\nImpo
+ rted from: http://events.geoloqi.com/events/1
+URL:http://visualized.com/
+SUMMARY:Visualized New York
+LOCATION:Times Center Manhattan: 242 West 41st Street\, New York NY 10036
+  US
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

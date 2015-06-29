@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20131106T215717Z
+DTEND;VALUE=DATE:20131111
+DTSTART;VALUE=DATE:20131108
+DTSTAMP;VALUE=DATE-TIME:20131106T215717Z
+LAST-MODIFIED;VALUE=DATE-TIME:20131106T220026Z
+UID:http://events.geoloqi.com/events/133
+DESCRIPTION:This event runs from Friday\, November 8\, 2013 at 9am throug
+ h Sunday\, November 10\, 2013 at 5pm.\n\n Description:\nJoin us in Miami
+  Beach from November 8-10 for RubyConf\, the annual celebration of all t
+ hings Ruby! Rubyists from around the world will be gathering to share in
+ formation and ideas\, while also soaking up some rays.\n\nTags: ruby\, u
+ ser:davy\, rubyconf\n\nImported from: http://events.geoloqi.com/events/1
+ 33
+URL:http://rubyconf.org/
+SUMMARY:RubyConf 2013
+LOCATION:Loews Miami Beach Hotel: 1601 Collins Avenue\, Miami Beach Flori
+ da  
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

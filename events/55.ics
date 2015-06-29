@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:20130310T020000
+RDATE:20130310T020000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130501T202734Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130501T213000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130501T173000
+DTSTAMP;VALUE=DATE-TIME:20130501T202734Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130501T202734Z
+UID:http://events.geoloqi.com/events/55
+DESCRIPTION:In coordination with the Oregon and Southwest Washington URIS
+ A GIS in Action conference\, we will be hosting an Esri Dev Meet Up on W
+ ednesday\, May 1st. Food and beverages will be provided at the meet up.\
+ n\nThe Esri Dev Meet Up is a social gathering for developers to discuss 
+ geospatial technologies\, complementary third-party tools\, and developm
+ ent platforms (e.g.\, Silverlight\, Java\, Flex\, JavaScript) that are s
+ upported by Esri. Presentations run the gamut of our community: from Web
+  development to mobile location development for iOS\, Android and Window
+ s Phone 7 to automating tasks with Python.\n\nDevelopers of all levels o
+ f expertise are welcome\, from seasoned GIS professionals to those new t
+ o geospatial development.\n\nMeetup Schedule:\n\n*6:00 - 7:00 PM Registr
+ ation and Social (Appetizers and Beverages served)\n\n*7:00 - 7:30 PM Ke
+ ynote Speaker\n\nJim Walter - Kimerasystems.com: Real World Experiences 
+ Creating Intelligent Mobile Devices Through Contextual Awareness and Per
+ sistent Location\n\n*7:30 - 8:30 PM Lightning talks\n\nTheresa Valentine
+  from the USDA Forest Service &quot\;GeoNIS: Automating the Process of I
+ ntegrating Spatial Data for 26 Long Term Ecological Research (LTER) site
+ s\, and Making Data Available via Map and Image Services&quot\;\n\nPaul 
+ Ferro is a GIS Analyst for DOGAMI. He will be presenting &quot\;Tips\, T
+ ricks\, and Scripts for Planning Your Migration to ArcGIS Server 10.1.&q
+ uot\; It will cover how to mine and archive 10 Web service properties fo
+ r a 10.1 deployment and use Python to stage 10.1 service definitions in 
+ advance.\n\nDana Maher is a Mobile Application Developer who works on We
+ b and mobile applications\, primarily relating to Emergency Management\,
+  Urban Planning\, and Operational Support will present &quot\;Architecti
+ ng a Mobile Common Operating Picture for Emergency Management.&quot\; Sh
+ e will cover the architecture of an app that pulls from a disparate grou
+ p of spatial data sources and formats to provide a common operating pict
+ ure for Oregon emergency management.\n\n*8:30 - 9:30 PM Raffle\, Network
+ ing and Social.\n\nFollow us on Twitter: @Al_Laframboise and @AmyNiessen
+ \n\nTags: esri\, GIS\, meetup\, user:caseorganic\n\nImported from: http:
+ //events.geoloqi.com/events/55
+URL:http://www.meetup.com/DevMeetUpOregon/events/112474822/
+SUMMARY:Esri Dev Meet Up - Helping to Keep Portland on the Edge
+LOCATION:Portland City Grille: 111 SW 5th Ave. 30th Floor\, Portland OR 9
+ 7204 
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

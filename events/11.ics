@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121110T170359Z
+DTEND;VALUE=DATE:20121018
+DTSTART;VALUE=DATE:20121016
+DTSTAMP;VALUE=DATE-TIME:20121110T170359Z
+LAST-MODIFIED;VALUE=DATE-TIME:20121110T173826Z
+UID:http://events.geoloqi.com/events/11
+DESCRIPTION:This event runs from Tuesday\, October 16\, 2012 at 10am thro
+ ugh Wednesday\, October 17\, 2012 at 11am.\n\n Description:\nThis San Jo
+ se conference will bring together many companies in the location busines
+ s space. Come learn how brands and enterprise can better leverage locati
+ on-based services in reasonable ways. Location Business Summit USA. Ambe
+ r Case will be on a panel about the future of location and brands.\n\nTa
+ gs: user:caseorganic\, mformobile\n\nImported from: http://events.geoloq
+ i.com/events/11
+URL:http://www.mformobile.com/location-business-summit-usa/
+SUMMARY:MforMobile Location Business Summit
+LOCATION:Hyatt Place San Jose: 282 Almaden Boulevard\, San Jose CA 95113 
+ US
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

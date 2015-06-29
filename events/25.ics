@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:20130310T020000
+RDATE:20130310T020000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130211T174404Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130310T180000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130310T170000
+DTSTAMP;VALUE=DATE-TIME:20130211T174404Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130211T190255Z
+UID:http://events.geoloqi.com/events/25
+DESCRIPTION:Just a few months ago\, The Pebble E-paper Watch project rece
+ ived a record-breaking $10.2 million through Kickstarter in a widespread
+  show of support from a community of 68\,000+ micro-funders. And all thi
+ s support was for a product that doesn’t exist\, from an individual wi
+ th no track record of success. A few years ago\, this would have been co
+ nsidered a stroke of good luck\, yet as of July 3\, 2012\, there have be
+ en over 62\,000 launched projects on Kickstarter (3\,973 are currently i
+ n progress)\, with a steady success rate of approximately 44%. The compl
+ eted successful projects have raised a total of $229 million. If you hav
+ e an idea\, you can design your idea\, create a prototype\, pitch the id
+ ea to the world using simple video-making programs (e.g.\, Photobooth) a
+ nd fund a newly invented startup within a few days or weeks.\n\nThis pan
+ el is about discussing the commoditization of entrepreneurship and the f
+ uture of bringing ideas to the marketplace.\n\nTags: user:caseorganic\, 
+ sxsw\n\nImported from: http://events.geoloqi.com/events/25
+URL:http://schedule.sxsw.com/2013/events/event_IAP6297
+SUMMARY:SXSW: The Commoditization of Overnight Entrepreneurship
+LOCATION:Hilton Austin Downtown: 500 E 4th St\, Austin TX 78701 US
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

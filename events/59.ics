@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:20130310T020000
+RDATE:20130310T020000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130514T020952Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130515T210000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130515T180000
+DTSTAMP;VALUE=DATE-TIME:20130514T020952Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130514T021413Z
+UID:http://events.geoloqi.com/events/59
+DESCRIPTION:Ready to Take Your Mapping App to the Next Level?\n\nCome get
+  some food and drink\, and then test drive some of Esri’s coolest maps
+ \, apps and APIs.  Regardless of whether you are a JavaScript\, Android\
+ , or iOS developer\, you'll see that there's a lot more you can put into
+  a mapping app than directions and dots.\nTake your web and mobile apps 
+ to the next level. Find out how you can:\n\n* Geo-enable your apps w/ Es
+ ri’s hosted services\n* Develop in the API of your choice\n* Deploy on
+  any device\n\nYou’ll also get a sneak peak at upcoming features from 
+ key Esri staff and meet our pals from StackMob + Tropo.\n\nCome play wit
+ h our software. See what you’ve been missing.\n\nDrinks + grub are on 
+ us.\n\nSpace is limited. Register today.\n\nTags: user:aaronpk\, user:ca
+ seorganic\, user:robinj\, user:ryana\, googleio\n\nImported from: http:/
+ /events.geoloqi.com/events/59
+URL:http://esridevelopersocial.eventbrite.com
+SUMMARY:Esri and Friends Developer Social
+LOCATION:Jillian's: 175 4th Street\, San Francisco CA 94103 
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130521T225904Z
+DTEND;VALUE=DATE:20130602
+DTSTART;VALUE=DATE:20130528
+DTSTAMP;VALUE=DATE-TIME:20130521T225904Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130521T225904Z
+UID:http://events.geoloqi.com/events/61
+DESCRIPTION:This event runs from Tuesday\, May 28\, 2013 at 3pm through S
+ aturday\, June 1\, 2013 at 4pm.\n\n Description:\nJSConf is a unique con
+ ference organization\, because we aren't really a conference organizatio
+ n at all. We are a very loose federation of developers who share the sam
+ e general idea about how a technical conference should be held. We don't
+  believe that one model or process fits all communities\, in fact we are
+  big advocates of locally run events driven by passionate individuals de
+ dicated to the community. We make events that aren't from the standard c
+ onference playbook because we believe you (attendees\, speakers\, and sp
+ onsors) deserve more than that. We focus on two things\, pushing the bou
+ ndaries of what is thought to be conceivable with JS and providing excep
+ tional human social activities that encourage community and friendship b
+ uilding. That sets the general tone for each of our events and from ther
+ e\, local individuals from each region drive the conference to its own i
+ ncredible level of excellence. Our mission is to make the technology com
+ munity better\, more diverse\, and more human\; in short\, we just want 
+ to make things better. JSConf does not focus on what is popular or cool 
+ now\, but on topics that define and revolutionize the following year of 
+ technology. We have been the launching point for some of the most revolu
+ tionary products\, services\, and technologies on the web. We have also 
+ been the inspiration point and support base for a wide range of conferen
+ ces beyond the &quot\;JSConf&quot\; name.\n\nTags: user:jerrysv\, jsconf
+ \n\nImported from: http://events.geoloqi.com/events/61
+URL:http://2013.jsconf.us/
+SUMMARY:JSConf
+LOCATION:Amelia Island Resort: 39 Beach Lagoon\, Amelia Island FL 32034 
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130414T233148Z
+DTEND;VALUE=DATE:20130606
+DTSTART;VALUE=DATE:20130604
+DTSTAMP;VALUE=DATE-TIME:20130414T233148Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130414T233148Z
+UID:http://events.geoloqi.com/events/54
+DESCRIPTION:This event runs from Tuesday\, June 4\, 2013 at 8am through W
+ ednesday\, June 5\, 2013 at 5pm.\n\n Description:\nNow in its 4th year\,
+  Augmented World Expo (formerly ARE) is assembling the biggest names —
+  from the hottest startups and leading AR providers to the Fortune 500 
+ — to showcase the world’s best augmented experiences that solve real
+  world problems in all aspects of life\, from entertainment and brand en
+ gagement to enterprise\, industrial and commerce applications. \n\nTags:
+  user:aaronpk\, user:caseorganic\, augmentedworld\n\nImported from: http
+ ://events.geoloqi.com/events/54
+URL:http://augmentedworldexpo.com/
+SUMMARY:Augmented World Expo
+LOCATION:Santa Clara Convention Center: 5001 Great America Pkwy\, Santa C
+ lara CA 95054 
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:20130310T020000
+RDATE:20130310T020000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20140116T195510Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20131024T200000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20131024T180000
+DTSTAMP;VALUE=DATE-TIME:20140116T195510Z
+LAST-MODIFIED;VALUE=DATE-TIME:20140116T195510Z
+UID:http://events.geoloqi.com/events/138
+DESCRIPTION:Welcome to MaptimePDX\, a monthly hack and learn meetup for m
+ ap nerds\, geo-geeks\, and the spatially inclined. Beginners very welcom
+ e. The best maps are made together. :)\n\nTags: web\, maps\, geospatial\
+ , programming\, javascript\, html\, css\n\nImported from: http://calagat
+ or.org/events/1250465042\n\nTags: maptime\, user:kenichi\n\nImported fro
+ m: http://events.geoloqi.com/events/138
+URL:http://calagator.org/events/1250465042
+SUMMARY:MaptimePDX
+LOCATION:Esri R&D Center Portland: 920 SW 3rd\, 4th floor\, Portland Oreg
+ on 97204 US
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

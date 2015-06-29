@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20131106T225443Z
+DTEND;VALUE=DATE:20131122
+DTSTART;VALUE=DATE:20131119
+DTSTAMP;VALUE=DATE-TIME:20131106T225443Z
+LAST-MODIFIED;VALUE=DATE-TIME:20131106T225443Z
+UID:http://events.geoloqi.com/events/135
+DESCRIPTION:This event runs from Tuesday\, November 19\, 2013 at 9am thro
+ ugh Thursday\, November 21\, 2013 at 5pm.\n\n Description:\nJoin the bri
+ ghtest minds in geospatial development.\n\nThe Esri DevSummit Middle Eas
+ t and Africa is the event for developers to come together and learn the 
+ latest and greatest in geospatial development from each other and Esri d
+ evelopers.\n\nTags: devsummit\, esri\, user:aaronpk\n\nImported from: ht
+ tp://events.geoloqi.com/events/135
+URL:http://www.esri.com/events/devsummit-mea
+SUMMARY:DevSummit Middle East
+LOCATION:Park Hyatt Dubai: Park Hyatt Dubai Creek\, Dubai Creek Club St D
+ ubai  
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

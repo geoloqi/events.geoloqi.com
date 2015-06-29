@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121110T165814Z
+DTEND;VALUE=DATE:20121203
+DTSTART;VALUE=DATE:20121201
+DTSTAMP;VALUE=DATE-TIME:20121110T165814Z
+LAST-MODIFIED;VALUE=DATE-TIME:20121202T114836Z
+UID:http://events.geoloqi.com/events/10
+DESCRIPTION:This event runs from Saturday\, December 1\, 2012 at 9am thro
+ ugh Sunday\, December 2\, 2012 at 6pm.\n\n Description:\nThe weekend bef
+ ore the Kings of Code Conference (December 1 and 2) the battle is on! Wh
+ o has the best development team? Who has the best hacking skills? Which 
+ team will go home with the title: Kings of Code 2012?\n\nThe Kings of Co
+ de Hack Battle brings world leading platforms (API's and SDK's) together
+  with an exclusive international group of coders (frontend / backend dev
+ elopers and designers).\n\nTags: user:aaronpk\, user:caseorganic\, kings
+ ofcode\, hackathon\, thenextweb\, user:myles\n\nImported from: http://ev
+ ents.geoloqi.com/events/10
+URL:http://kingsofcode.com/conference/2012/hackbattle
+SUMMARY:Kings of Code Hack Battle
+LOCATION:The View: Rokin 75\, Amsterdam Netherlands 1012 NL
+SEQUENCE:6
+END:VEVENT
+END:VCALENDAR

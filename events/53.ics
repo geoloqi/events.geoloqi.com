@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130414T232743Z
+DTEND;VALUE=DATE:20130421
+DTSTART;VALUE=DATE:20130419
+DTSTAMP;VALUE=DATE-TIME:20130414T232743Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130419T001732Z
+UID:http://events.geoloqi.com/events/53
+DESCRIPTION:This event runs from Friday\, April 19\, 2013 at 7pm through 
+ Saturday\, April 20\, 2013 at 7pm.\n\n Description:\nDiscoverSF unites d
+ esigners\, developers\, and entrepreneurs for a world class hackathon\, 
+ to build networks\, cross pollinate ideas\, and create new products and 
+ tools to innovate and improve how residents and tourists experience SF. 
+ \n\nTags: hackathon\, user:aaronpk\, user:caseorganic\, discoversf\, use
+ r:josh\n\nImported from: http://events.geoloqi.com/events/53
+URL:http://discoversf.org/
+SUMMARY:DiscoverSF Hackathon
+LOCATION:Airbnb HQ: 99 Rhode Island St\, San Francisco CA 94103 
+SEQUENCE:4
+END:VEVENT
+END:VCALENDAR

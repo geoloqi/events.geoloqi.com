@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130318T220941Z
+DTEND;VALUE=DATE:20130518
+DTSTART;VALUE=DATE:20130516
+DTSTAMP;VALUE=DATE-TIME:20130318T220941Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130318T221121Z
+UID:http://events.geoloqi.com/events/41
+DESCRIPTION:This event runs from Thursday\, May 16\, 2013 at 9am through 
+ Friday\, May 17\, 2013 at 5pm.\n\n Description:\n### Hardware\nThey're t
+ aking the world by storm. Quad coptors\, remote control Lego Trains\, Ro
+ bots\, cybernetic implants. The hardware world is being revolutionized i
+ n so many ways and JavaScript with Node.js is charging ahead. We're aimi
+ ng to push that charge forward with a track dedicated to hardware hackin
+ g\, so bring your ideas\, your hardware\, your code &amp\; let's hack.\n
+ \n### Software\nCode\, it's in every thing we touch these days. JavaScri
+ pt is stepping into new code realms everyday\, in the browser\, server\,
+  phone\, databases\, map reductions\, your house and even in places we'v
+ e no idea yet. Where are we heading next with JavaScript\, what else sho
+ uld we do with it? Come hear about and contribute to the coolest develop
+ ments in the world of JavaScript.\n\n###Independent\nWe love this stuff.
+  We love building things. We do this for the fun of it and because we ju
+ st can't not do it! We love that it provides so much monetary value to s
+ ociety\, as companies actually pay us to do this stuff. Otherwise we'd b
+ e starving artists\, and we're cool with good food.\n\nTags: user:jerrys
+ v\, nodepdx\n\nImported from: http://events.geoloqi.com/events/41
+URL:http://nodepdx.org/
+SUMMARY:NodePDX 2013
+LOCATION:Holocene: 1001 Southeast Morrison Street\, Portland OR 97214 
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

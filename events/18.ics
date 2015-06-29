@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:STANDARD
+DTSTART:20121104T020000
+RDATE:20121104T020000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130116T182931Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130116T140000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130116T120000
+DTSTAMP;VALUE=DATE-TIME:20130116T182931Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130201T203958Z
+UID:http://events.geoloqi.com/events/18
+DESCRIPTION:Let's start the new year off with the folks at Geoloqi (who w
+ ere recently acquired by Esri)!\n\nhttp://www.meetup.com/Portland-Lunch-
+ 2-0/events/91090032/\n\n\nTags: lunch20\, user:aaronpk\, user:caseorgani
+ c\, user:jerrysv\, user:josh\, user:kenichi\, user:kyledrake\, user:patr
+ ickarlt\, user:courtf\, user:ryana\, user:paulcpederson\n\nImported from
+ : http://events.geoloqi.com/events/18
+URL:http://calagator.org/events/1250463117
+SUMMARY:Lunch 2.0
+LOCATION:Esri R&D Center Portland: 920 SW 3rd\, 4th floor\, Portland Oreg
+ on 97204 US
+SEQUENCE:3
+END:VEVENT
+END:VCALENDAR

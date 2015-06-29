@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20140403T222121Z
+DTEND;VALUE=DATE:20140530
+DTSTART;VALUE=DATE:20140527
+DTSTAMP;VALUE=DATE-TIME:20140403T222121Z
+LAST-MODIFIED;VALUE=DATE-TIME:20140403T222144Z
+UID:http://events.geoloqi.com/events/140
+DESCRIPTION:This event runs from Tuesday\, May 27\, 2014 at 8am through T
+ hursday\, May 29\, 2014 at 6pm.\n\n Description:\nNow in its 5th year\, 
+ AWE is assembling the top innovators - from the hottest startups to Fort
+ une 500 - to showcase the best solutions to make the world more interact
+ ive - featuring Augmented Reality\, Wearable Computing\, Digital Eyewear
+ \, Gesture and Sensors devices\, and The Internet of Things. Join 2000 C
+ EOs\, CTOs\, designers\, developers\, creative agencies\, futurists\, an
+ alysts\, investors\, and high-level press.\n\nTags: user:aaronpk\, awe\n
+ \nImported from: http://events.geoloqi.com/events/140
+URL:http://augmentedworldexpo.com/
+SUMMARY:Augmented World Expo
+LOCATION:Santa Clara Convention Center: 5001 Great America Pkwy\, Santa C
+ lara CA 95054 
+SEQUENCE:2
+END:VEVENT
+END:VCALENDAR

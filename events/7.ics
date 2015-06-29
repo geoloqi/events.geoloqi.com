@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121106T170615Z
+DTEND;VALUE=DATE:20121015
+DTSTART;VALUE=DATE:20121012
+DTSTAMP;VALUE=DATE-TIME:20121106T170615Z
+LAST-MODIFIED;VALUE=DATE-TIME:20121106T212307Z
+UID:http://events.geoloqi.com/events/7
+DESCRIPTION:This event runs from Friday\, October 12\, 2012 at 6pm throug
+ h Sunday\, October 14\, 2012 at 3am.\n\n Description:\nWhereCampPDX is a
+  free\, volunteer-created unconference for anyone interested in geograph
+ y and technology. This year’s event will be happening October 12th-14t
+ h\, 2012 with a full day of unconference sessions at Metro Regional Cent
+ er on the 13th.\n\nAn unconference is a conference planned by the partic
+ ipants. We convene together\, plan sessions\, and break-out into the pro
+ posed session discussions and activities. This gives everyone an opportu
+ nity to bring to the table the things that interest them the most\, and 
+ talk about emerging topics that are still new and exploratory. We value 
+ open participation\, providing access to new voices\, and lowering barri
+ ers to participation. As a result\, the event is driven by the interests
+  and talents of the participants.\n\nTags: user:caseorganic\, user:aaron
+ pk\, user:kyledrake\, wherecamp\, calagator:event=1250462560\, GIS\n\nIm
+ ported from: http://events.geoloqi.com/events/7
+URL:http://wherecamppdx.org/
+SUMMARY:WhereCamp Portland 2012
+LOCATION:Metro Regional Center: 600 Northeast Grand Avenue\, Portland OR 
+ 97232 US
+SEQUENCE:6
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20121105T183547Z
+DTEND;VALUE=DATE:20121207
+DTSTART;VALUE=DATE:20121204
+DTSTAMP;VALUE=DATE-TIME:20121105T183547Z
+LAST-MODIFIED;VALUE=DATE-TIME:20121111T184120Z
+UID:http://events.geoloqi.com/events/3
+DESCRIPTION:This event runs from Tuesday\, December 4\, 2012 at 9am throu
+ gh Thursday\, December 6\, 2012 at 7pm.\n\n Description:\n\n\nTags: user
+ :aaronpk\, user:caseorganic\, leweb\, user:myles\n\nImported from: http:
+ //events.geoloqi.com/events/3
+URL:http://paris.leweb.co/
+SUMMARY:LeWeb Paris - The Internet of Things
+LOCATION:Eurosites Les Docks: 50 Avenue du President Wilson\, Paris Franc
+ e 75116 FR
+SEQUENCE:3
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//Calagator//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Geoloqi Events
+METHOD:PUBLISH
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:America/Los_Angeles
+BEGIN:STANDARD
+DTSTART:20121104T020000
+RDATE:20121104T020000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;VALUE=DATE-TIME:20130201T015243Z
+DTEND;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130124T200000
+DTSTART;TZID=America/Los_Angeles;VALUE=DATE-TIME:20130124T180000
+DTSTAMP;VALUE=DATE-TIME:20130201T015243Z
+LAST-MODIFIED;VALUE=DATE-TIME:20130201T015419Z
+UID:http://events.geoloqi.com/events/21
+DESCRIPTION:In an effort to get to know and support developers in the thr
+ iving tech communities all over the country\, Singly is heading out on t
+ he road to throw API happy hours.\n\nThis is not about marketing\, and i
+ t's not about sales. APIs  IPAs is focused on community. We want to supp
+ ort your local tech community\, and we want to get to know developers ev
+ erywhere.\n\nIn each city\, we're partnering with local companies that s
+ trive to build developer communities\, as well as non-local developer-ce
+ ntric companies.\n\nAll you have to do is show up ready to talk shop –
+  and we'll foot the bill for drinks.\n\nTags: user:aaronpk\, user:caseor
+ ganic\n\nImported from: http://events.geoloqi.com/events/21
+URL:http://pdxapipa.eventbrite.com/
+SUMMARY:APIs & IPAs PDX
+LOCATION:Green Dragon Bistro & Brewpub: 928 SE 9th Ave\, Portland Oregon 
+ 97214 US
+SEQUENCE:3
+END:VEVENT
+END:VCALENDAR
